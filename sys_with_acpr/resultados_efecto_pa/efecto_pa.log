@@ -1,0 +1,135 @@
+contra back-off listo (0.4 min)
+Guardado en sys_with_acpr/resultados_efecto_pa/efecto_pa.pkl (0.7 min)
+
+  BO    EVM sin mem   EVM con mem (escalar)   ACPR L/U con mem
+ -9.0    22.40      22.44 (22.83)      -20.36 / -20.36
+ -7.5    20.57      20.59 (21.18)      -21.22 / -21.23
+ -6.0    18.46      18.47 (19.28)      -22.27 / -22.28
+ -4.5    16.18      16.17 (17.22)      -23.51 / -23.52
+ -3.0    13.84      13.83 (15.14)      -24.94 / -24.95
+ -1.5    11.57      11.56 (13.16)      -26.56 / -26.57
+ +0.0     9.46       9.44 (11.39)      -28.36 / -28.37
+ +1.5     7.56       7.54 ( 9.89)      -30.34 / -30.36
+ +3.0     5.92       5.91 ( 8.72)      -32.49 / -32.51
+ +4.5     4.55       4.54 ( 7.86)      -34.80 / -34.81
+ +6.0     3.44       3.43 ( 7.28)      -37.24 / -37.26
+ +7.5     2.57       2.55 ( 6.91)      -39.81 / -39.83
+ +9.0     1.89       1.88 ( 6.69)      -42.47 / -42.49
++10.5     1.38       1.37 ( 6.57)      -45.22 / -45.24
++12.0     1.00       0.99 ( 6.50)      -48.03 / -48.05
++13.5     0.72       0.71 ( 6.46)      -50.90 / -50.92
++15.0     0.51       0.51 ( 6.44)      -53.79 / -53.82
+
+('sin_pa',)
+  SNR    0 dB  BER 2.86e-01 (250222 errores en 8.74e+05 bits)  EVM 99.76 %
+  SNR    2 dB  BER 2.37e-01 (206967 errores en 8.74e+05 bits)  EVM 79.36 %
+  SNR    4 dB  BER 1.88e-01 (164064 errores en 8.74e+05 bits)  EVM 62.99 %
+  SNR    6 dB  BER 1.41e-01 (123456 errores en 8.74e+05 bits)  EVM 50.08 %
+  SNR    8 dB  BER 9.77e-02 (85376 errores en 8.74e+05 bits)  EVM 39.73 %
+  SNR   10 dB  BER 5.89e-02 (51464 errores en 8.74e+05 bits)  EVM 31.57 %
+  SNR   12 dB  BER 2.85e-02 (24859 errores en 8.74e+05 bits)  EVM 25.18 %
+  SNR   14 dB  BER 9.34e-03 (8156 errores en 8.74e+05 bits)  EVM 19.93 %
+  SNR   16 dB  BER 1.76e-03 (1534 errores en 8.74e+05 bits)  EVM 15.83 %
+  SNR   18 dB  BER 1.25e-04 (109 errores en 8.74e+05 bits)  EVM 12.56 %
+  SNR   20 dB  BER 2.19e-06 (23 errores en 1.05e+07 bits)  EVM  9.99 %
+  SNR   22 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  7.93 %
+  SNR   24 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  6.30 %
+  SNR   26 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  5.01 %
+  SNR   28 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  3.98 %
+  SNR   30 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  3.16 %
+  SNR   32 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  2.51 %
+
+('pa', -9.0, True)
+  SNR    0 dB  BER 2.96e-01 (258804 errores en 8.74e+05 bits)  EVM 104.68 %
+  SNR    2 dB  BER 2.50e-01 (218637 errores en 8.74e+05 bits)  EVM 84.39 %
+  SNR    4 dB  BER 2.05e-01 (179023 errores en 8.74e+05 bits)  EVM 68.43 %
+  SNR    6 dB  BER 1.64e-01 (143035 errores en 8.74e+05 bits)  EVM 56.02 %
+  SNR    8 dB  BER 1.28e-01 (111467 errores en 8.74e+05 bits)  EVM 46.51 %
+  SNR   10 dB  BER 9.62e-02 (84004 errores en 8.74e+05 bits)  EVM 39.41 %
+  SNR   12 dB  BER 7.21e-02 (62995 errores en 8.74e+05 bits)  EVM 34.25 %
+  SNR   14 dB  BER 5.26e-02 (45936 errores en 8.74e+05 bits)  EVM 30.34 %
+  SNR   16 dB  BER 3.99e-02 (34854 errores en 8.74e+05 bits)  EVM 27.72 %
+  SNR   18 dB  BER 3.14e-02 (27424 errores en 8.74e+05 bits)  EVM 25.84 %
+  SNR   20 dB  BER 2.62e-02 (22846 errores en 8.74e+05 bits)  EVM 24.66 %
+  SNR   22 dB  BER 2.31e-02 (20161 errores en 8.74e+05 bits)  EVM 23.88 %
+  SNR   24 dB  BER 2.07e-02 (18045 errores en 8.74e+05 bits)  EVM 23.35 %
+  SNR   26 dB  BER 1.95e-02 (17078 errores en 8.74e+05 bits)  EVM 23.02 %
+  SNR   28 dB  BER 1.87e-02 (16346 errores en 8.74e+05 bits)  EVM 22.81 %
+  SNR   30 dB  BER 1.83e-02 (15976 errores en 8.74e+05 bits)  EVM 22.68 %
+  SNR   32 dB  BER 1.80e-02 (15687 errores en 8.74e+05 bits)  EVM 22.59 %
+
+('pa', -3.0, True)
+  SNR    0 dB  BER 2.90e-01 (253508 errores en 8.74e+05 bits)  EVM 101.68 %
+  SNR    2 dB  BER 2.42e-01 (211545 errores en 8.74e+05 bits)  EVM 81.34 %
+  SNR    4 dB  BER 1.94e-01 (169794 errores en 8.74e+05 bits)  EVM 65.14 %
+  SNR    6 dB  BER 1.50e-01 (131234 errores en 8.74e+05 bits)  EVM 52.42 %
+  SNR    8 dB  BER 1.10e-01 (96261 errores en 8.74e+05 bits)  EVM 42.44 %
+  SNR   10 dB  BER 7.42e-02 (64862 errores en 8.74e+05 bits)  EVM 34.77 %
+  SNR   12 dB  BER 4.62e-02 (40334 errores en 8.74e+05 bits)  EVM 28.98 %
+  SNR   14 dB  BER 2.52e-02 (22006 errores en 8.74e+05 bits)  EVM 24.41 %
+  SNR   16 dB  BER 1.29e-02 (11270 errores en 8.74e+05 bits)  EVM 21.15 %
+  SNR   18 dB  BER 6.35e-03 (5547 errores en 8.74e+05 bits)  EVM 18.74 %
+  SNR   20 dB  BER 3.36e-03 (2931 errores en 8.74e+05 bits)  EVM 17.10 %
+  SNR   22 dB  BER 1.97e-03 (1721 errores en 8.74e+05 bits)  EVM 15.99 %
+  SNR   24 dB  BER 1.18e-03 (1035 errores en 8.74e+05 bits)  EVM 15.21 %
+  SNR   26 dB  BER 9.20e-04 (804 errores en 8.74e+05 bits)  EVM 14.72 %
+  SNR   28 dB  BER 7.26e-04 (634 errores en 8.74e+05 bits)  EVM 14.40 %
+  SNR   30 dB  BER 5.94e-04 (519 errores en 8.74e+05 bits)  EVM 14.19 %
+  SNR   32 dB  BER 5.37e-04 (469 errores en 8.74e+05 bits)  EVM 14.06 %
+
+('pa', 0.0, True)
+  SNR    0 dB  BER 2.88e-01 (251790 errores en 8.74e+05 bits)  EVM 100.68 %
+  SNR    2 dB  BER 2.39e-01 (209152 errores en 8.74e+05 bits)  EVM 80.31 %
+  SNR    4 dB  BER 1.91e-01 (166811 errores en 8.74e+05 bits)  EVM 64.03 %
+  SNR    6 dB  BER 1.45e-01 (127032 errores en 8.74e+05 bits)  EVM 51.19 %
+  SNR    8 dB  BER 1.04e-01 (90627 errores en 8.74e+05 bits)  EVM 41.02 %
+  SNR   10 dB  BER 6.64e-02 (58013 errores en 8.74e+05 bits)  EVM 33.10 %
+  SNR   12 dB  BER 3.68e-02 (32177 errores en 8.74e+05 bits)  EVM 27.03 %
+  SNR   14 dB  BER 1.63e-02 (14199 errores en 8.74e+05 bits)  EVM 22.13 %
+  SNR   16 dB  BER 5.81e-03 (5079 errores en 8.74e+05 bits)  EVM 18.50 %
+  SNR   18 dB  BER 1.69e-03 (1473 errores en 8.74e+05 bits)  EVM 15.73 %
+  SNR   20 dB  BER 4.44e-04 (388 errores en 8.74e+05 bits)  EVM 13.75 %
+  SNR   22 dB  BER 1.12e-04 (98 errores en 8.74e+05 bits)  EVM 12.36 %
+  SNR   24 dB  BER 3.95e-05 (69 errores en 1.75e+06 bits)  EVM 11.37 %
+  SNR   26 dB  BER 1.40e-05 (61 errores en 4.37e+06 bits)  EVM 10.72 %
+  SNR   28 dB  BER 8.18e-06 (50 errores en 6.12e+06 bits)  EVM 10.27 %
+  SNR   30 dB  BER 3.43e-06 (36 errores en 1.05e+07 bits)  EVM  9.98 %
+  SNR   32 dB  BER 2.19e-06 (23 errores en 1.05e+07 bits)  EVM  9.79 %
+
+('pa', 3.0, True)
+  SNR    0 dB  BER 2.87e-01 (250898 errores en 8.74e+05 bits)  EVM 100.15 %
+  SNR    2 dB  BER 2.38e-01 (207998 errores en 8.74e+05 bits)  EVM 79.77 %
+  SNR    4 dB  BER 1.89e-01 (165151 errores en 8.74e+05 bits)  EVM 63.44 %
+  SNR    6 dB  BER 1.43e-01 (124986 errores en 8.74e+05 bits)  EVM 50.53 %
+  SNR    8 dB  BER 1.00e-01 (87444 errores en 8.74e+05 bits)  EVM 40.26 %
+  SNR   10 dB  BER 6.19e-02 (54081 errores en 8.74e+05 bits)  EVM 32.19 %
+  SNR   12 dB  BER 3.19e-02 (27886 errores en 8.74e+05 bits)  EVM 25.94 %
+  SNR   14 dB  BER 1.19e-02 (10416 errores en 8.74e+05 bits)  EVM 20.82 %
+  SNR   16 dB  BER 3.10e-03 (2712 errores en 8.74e+05 bits)  EVM 16.93 %
+  SNR   18 dB  BER 4.88e-04 (426 errores en 8.74e+05 bits)  EVM 13.88 %
+  SNR   20 dB  BER 4.52e-05 (79 errores en 1.75e+06 bits)  EVM 11.62 %
+  SNR   22 dB  BER 2.29e-06 (24 errores en 1.05e+07 bits)  EVM  9.91 %
+  SNR   24 dB  BER 9.54e-08 (1 errores en 1.05e+07 bits)  EVM  8.66 %
+  SNR   26 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  7.76 %
+  SNR   28 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  7.14 %
+  SNR   30 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  6.72 %
+  SNR   32 dB  BER 0.00e+00 (0 errores en 1.05e+07 bits)  EVM  6.43 %
+
+('pa', 0.0, False)
+  SNR    0 dB  BER 2.88e-01 (251619 errores en 8.74e+05 bits)  EVM 100.63 %
+  SNR    2 dB  BER 2.39e-01 (209206 errores en 8.74e+05 bits)  EVM 80.25 %
+  SNR    4 dB  BER 1.91e-01 (166722 errores en 8.74e+05 bits)  EVM 63.98 %
+  SNR    6 dB  BER 1.46e-01 (127109 errores en 8.74e+05 bits)  EVM 51.16 %
+  SNR    8 dB  BER 1.04e-01 (90527 errores en 8.74e+05 bits)  EVM 41.00 %
+  SNR   10 dB  BER 6.64e-02 (58007 errores en 8.74e+05 bits)  EVM 33.09 %
+  SNR   12 dB  BER 3.68e-02 (32130 errores en 8.74e+05 bits)  EVM 27.02 %
+  SNR   14 dB  BER 1.61e-02 (14103 errores en 8.74e+05 bits)  EVM 22.12 %
+  SNR   16 dB  BER 5.81e-03 (5077 errores en 8.74e+05 bits)  EVM 18.50 %
+  SNR   18 dB  BER 1.70e-03 (1485 errores en 8.74e+05 bits)  EVM 15.74 %
+  SNR   20 dB  BER 4.53e-04 (396 errores en 8.74e+05 bits)  EVM 13.76 %
+  SNR   22 dB  BER 1.13e-04 (99 errores en 8.74e+05 bits)  EVM 12.37 %
+  SNR   24 dB  BER 4.24e-05 (74 errores en 1.75e+06 bits)  EVM 11.39 %
+  SNR   26 dB  BER 1.60e-05 (56 errores en 3.49e+06 bits)  EVM 10.74 %
+  SNR   28 dB  BER 6.61e-06 (52 errores en 7.86e+06 bits)  EVM 10.28 %
+  SNR   30 dB  BER 5.31e-06 (51 errores en 9.61e+06 bits)  EVM  9.99 %
+  SNR   32 dB  BER 2.96e-06 (31 errores en 1.05e+07 bits)  EVM  9.81 %

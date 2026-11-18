@@ -1,0 +1,137 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2026 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2026.1 (win64) Build 6511674 Tue Jun 16 11:02:23 MDT 2026
+| Date         : Thu Nov 12 11:22:00 2026
+| Host         : (omitido)
+| Command      : report_utilization -hierarchical -file rtl/synth/reportes/utilizacion_jerarquica.rpt
+| Design       : dpd_apply_top
+| Device       : xc7z020clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++-----------------------------------------+-------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|                 Instance                |             Module            | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++-----------------------------------------+-------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| dpd_apply_top                           |                         (top) |       7378 |       6602 |       0 |  776 | 9011 |      0 |      0 |        162 |
+|   (dpd_apply_top)                       |                         (top) |          0 |          0 |       0 |    0 |   18 |      0 |      0 |          0 |
+|   u_core                                |                dpd_apply_core |       6475 |       5725 |       0 |  750 | 8430 |      0 |      0 |        162 |
+|     (u_core)                            |                dpd_apply_core |        404 |        403 |       0 |    1 |   31 |      0 |      0 |         36 |
+|     g_acc[10].u_dti                     |    delay_reg__parameterized14 |        110 |         73 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[10].u_dtr                     |  delay_reg__parameterized14_3 |        110 |         73 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[11].u_dti                     |    delay_reg__parameterized15 |        111 |         74 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[11].u_dtr                     |  delay_reg__parameterized15_7 |        111 |         74 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[1].u_dti                      |  delay_reg__parameterized0_11 |         73 |         73 |       0 |    0 |   37 |      0 |      0 |          0 |
+|     g_acc[1].u_dtr                      |  delay_reg__parameterized0_12 |         73 |         73 |       0 |    0 |   37 |      0 |      0 |          0 |
+|     g_acc[2].u_dti                      |                     delay_reg |         73 |         73 |       0 |    0 |   74 |      0 |      0 |          0 |
+|     g_acc[2].u_dtr                      |                  delay_reg_16 |         73 |         73 |       0 |    0 |   74 |      0 |      0 |          0 |
+|     g_acc[3].u_dti                      |     delay_reg__parameterized5 |        111 |         74 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[3].u_dtr                      |  delay_reg__parameterized5_20 |        111 |         74 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[4].u_dti                      |     delay_reg__parameterized9 |         73 |         36 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[4].u_dtr                      |  delay_reg__parameterized9_24 |         73 |         36 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[5].u_dti                      |    delay_reg__parameterized10 |        110 |         73 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[5].u_dtr                      | delay_reg__parameterized10_28 |        110 |         73 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[6].u_dti                      |     delay_reg__parameterized7 |        110 |         73 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[6].u_dtr                      |  delay_reg__parameterized7_32 |        110 |         73 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[7].u_dti                      |    delay_reg__parameterized11 |        111 |         74 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[7].u_dtr                      | delay_reg__parameterized11_36 |        111 |         74 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[8].u_dti                      |    delay_reg__parameterized12 |         73 |         36 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[8].u_dtr                      | delay_reg__parameterized12_40 |         73 |         36 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[9].u_dti                      |    delay_reg__parameterized13 |        110 |         73 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_acc[9].u_dtr                      | delay_reg__parameterized13_44 |        110 |         73 |       0 |   37 |   74 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[0].u_cmul            |                cmul_round_sat |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[0].g_ord[0].u_cmul)        |                cmul_round_sat |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_180 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_181 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[1].g_no_lineal.u_rmi |     delay_reg__parameterized2 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[1].g_no_lineal.u_rmr |  delay_reg__parameterized2_54 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[1].u_cmul            |             cmul_round_sat_55 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[0].g_ord[1].u_cmul)        |             cmul_round_sat_55 |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_176 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_177 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[2].g_no_lineal.u_rmi |  delay_reg__parameterized2_60 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[2].g_no_lineal.u_rmr |  delay_reg__parameterized2_61 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[2].u_cmul            |             cmul_round_sat_62 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[0].g_ord[2].u_cmul)        |             cmul_round_sat_62 |        105 |        105 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_172 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_173 |         28 |         28 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[3].g_no_lineal.u_rmi |  delay_reg__parameterized2_67 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[3].g_no_lineal.u_rmr |  delay_reg__parameterized2_68 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[0].g_ord[3].u_cmul            |             cmul_round_sat_69 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[0].g_ord[3].u_cmul)        |             cmul_round_sat_69 |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_168 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_169 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[0].u_dxi                      |     delay_reg__parameterized8 |         16 |          0 |       0 |   16 |   80 |      0 |      0 |          0 |
+|     g_tap[0].u_dxr                      |  delay_reg__parameterized8_70 |         16 |          0 |       0 |   16 |   80 |      0 |      0 |          0 |
+|     g_tap[0].u_mag                      |                  mp_magnitude |        319 |        302 |       0 |   17 |  529 |      0 |      0 |         10 |
+|       g_pot[2].u_rm                     | delay_reg__parameterized4_160 |         81 |         81 |       0 |    0 |  148 |      0 |      0 |          0 |
+|       g_pot[1].u_r                      | delay_reg__parameterized0_156 |         68 |         68 |       0 |    0 |   37 |      0 |      0 |          0 |
+|       g_pot[1].u_rm                     | delay_reg__parameterized4_157 |         81 |         81 |       0 |    0 |  148 |      0 |      0 |          0 |
+|       g_pot[2].u_al                     | delay_reg__parameterized5_159 |          9 |          9 |       0 |    0 |   62 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[0].u_cmul            |             cmul_round_sat_71 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[1].g_ord[0].u_cmul)        |             cmul_round_sat_71 |        105 |        105 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_153 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_154 |         28 |         28 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[1].g_no_lineal.u_rmi |  delay_reg__parameterized2_74 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[1].g_no_lineal.u_rmr |  delay_reg__parameterized2_75 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[1].u_cmul            |             cmul_round_sat_76 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[1].g_ord[1].u_cmul)        |             cmul_round_sat_76 |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_149 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_150 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[2].g_no_lineal.u_rmi |  delay_reg__parameterized2_79 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[2].g_no_lineal.u_rmr |  delay_reg__parameterized2_80 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[2].u_cmul            |             cmul_round_sat_81 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[1].g_ord[2].u_cmul)        |             cmul_round_sat_81 |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_145 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_146 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[3].g_no_lineal.u_rmi |  delay_reg__parameterized2_84 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[3].g_no_lineal.u_rmr |  delay_reg__parameterized2_85 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[1].g_ord[3].u_cmul            |             cmul_round_sat_86 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[1].g_ord[3].u_cmul)        |             cmul_round_sat_86 |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_141 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_142 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[1].u_mag                      |               mp_magnitude_87 |        319 |        302 |       0 |   17 |  529 |      0 |      0 |         10 |
+|       g_pot[2].u_rm                     | delay_reg__parameterized4_133 |         81 |         81 |       0 |    0 |  148 |      0 |      0 |          0 |
+|       g_pot[1].u_r                      | delay_reg__parameterized0_129 |         68 |         68 |       0 |    0 |   37 |      0 |      0 |          0 |
+|       g_pot[1].u_rm                     | delay_reg__parameterized4_130 |         81 |         81 |       0 |    0 |  148 |      0 |      0 |          0 |
+|       g_pot[2].u_al                     | delay_reg__parameterized5_132 |          9 |          9 |       0 |    0 |   62 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[0].u_cmul            |             cmul_round_sat_88 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[2].g_ord[0].u_cmul)        |             cmul_round_sat_88 |        105 |        105 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_126 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_127 |         28 |         28 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[1].g_no_lineal.u_rmi |  delay_reg__parameterized2_91 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[1].g_no_lineal.u_rmr |  delay_reg__parameterized2_92 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[1].u_cmul            |             cmul_round_sat_93 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[2].g_ord[1].u_cmul)        |             cmul_round_sat_93 |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_122 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_123 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[2].g_no_lineal.u_rmi |  delay_reg__parameterized2_96 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[2].g_no_lineal.u_rmr |  delay_reg__parameterized2_97 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[2].u_cmul            |             cmul_round_sat_98 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[2].g_ord[2].u_cmul)        |             cmul_round_sat_98 |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             | delay_reg__parameterized1_118 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_119 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[3].g_no_lineal.u_rmi | delay_reg__parameterized2_101 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[3].g_no_lineal.u_rmr | delay_reg__parameterized2_102 |         43 |         43 |       0 |    0 |   70 |      0 |      0 |          0 |
+|     g_tap[2].g_ord[3].u_cmul            |            cmul_round_sat_103 |        160 |        160 |       0 |    0 |  214 |      0 |      0 |          8 |
+|       (g_tap[2].g_ord[3].u_cmul)        |            cmul_round_sat_103 |         53 |         53 |       0 |    0 |    0 |      0 |      0 |          8 |
+|       u_rim                             |     delay_reg__parameterized1 |         28 |         28 |       0 |    0 |  108 |      0 |      0 |          0 |
+|       u_rre                             | delay_reg__parameterized1_115 |         80 |         80 |       0 |    0 |  106 |      0 |      0 |          0 |
+|     g_tap[2].u_mag                      |              mp_magnitude_104 |        319 |        302 |       0 |   17 |  529 |      0 |      0 |         10 |
+|       g_pot[2].u_rm                     | delay_reg__parameterized4_110 |         81 |         81 |       0 |    0 |  148 |      0 |      0 |          0 |
+|       g_pot[1].u_r                      | delay_reg__parameterized0_107 |         68 |         68 |       0 |    0 |   37 |      0 |      0 |          0 |
+|       g_pot[1].u_rm                     |     delay_reg__parameterized4 |         81 |         81 |       0 |    0 |  148 |      0 |      0 |          0 |
+|       g_pot[2].u_al                     | delay_reg__parameterized5_109 |          9 |          9 |       0 |    0 |   62 |      0 |      0 |          0 |
+|   u_regs                                |                dpd_apply_regs |        849 |        849 |       0 |    0 |  511 |      0 |      0 |          0 |
++-----------------------------------------+-------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+
+

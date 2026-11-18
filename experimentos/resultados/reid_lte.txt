@@ -1,0 +1,16 @@
+Lazo LTE en la Mac, PA fijo, 26 vueltas, pasadas de 2000, modelo con 16000
+reID en las vueltas 9, 14, 19, 24; promedio de las vueltas 10 a 25
+
+   BO  caso             EVM      NMSE     ACPR
+ +3.0  sin reID      1.04 % -36.05 dB  -43.3 dB
+ +3.0  reID          1.31 % -34.50 dB  -42.1 dB
+ +3.0  lim sin reID  1.04 % -36.06 dB  -43.4 dB
+ +3.0  lim reID      1.31 % -34.49 dB  -42.1 dB
+ +0.0  sin reID      2.21 % -29.68 dB  -36.4 dB
+ +0.0  reID          3.97 % -25.60 dB  -33.8 dB
+ +0.0  lim sin reID  2.19 % -29.74 dB  -36.5 dB
+ +0.0  lim reID      3.95 % -25.64 dB  -33.9 dB
+ -9.0  sin reID      3.23 % -24.81 dB  -31.7 dB
+ -9.0  reID         14.36 % -15.16 dB  -23.9 dB
+ -9.0  lim sin reID  3.63 % -24.48 dB  -31.1 dB
+ -9.0  lim reID     14.73 % -15.05 dB  -23.8 dB

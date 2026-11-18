@@ -1,0 +1,65 @@
+Comprobación sobre los 4096 vectores funcionales: 0 muestras distintas del modelo de punto fijo y 0 de la salida esperada del RTL.
+
+=== Back-off -9 dB
+Punto flotante: EVM 4.459 %, ACPR -31.24 dB
+Error contra punto flotante, relativo a la salida: registros de 16 bits -56.5 dB, formato interno Q8.28 -54.8 dB, núcleo entero -53.3 dB. Saturaciones con Q8.28: 0.
+
+Pico de cada etapa antes de redondear, y bits enteros que necesita:
+   |x|^2                                2.07e-01   0
+   base, orden 1                        4.52e-01   0
+   coeficiente por base, orden 1        4.52e-01   0
+   acumulador                           7.40e+00   3
+   base, orden 3                        9.35e-02   0
+   coeficiente por base, orden 3        2.78e-02   0
+   |x|^4                                4.28e-02   0
+   base, orden 5                        1.93e-02   0
+   coeficiente por base, orden 5        6.75e-04   0
+   |x|^6                                8.87e-03   0
+   base, orden 7                        4.00e-03   0
+   coeficiente por base, orden 7        6.71e-06   0
+
+guarda ent. guarda frac.  formato  satur.  error interno [dB]  EVM [%] ACPR [dB]
+          8           13    Q8.28       0               -54.8    4.453    -31.24
+          4           13    Q4.28       0               -54.8    4.453    -31.24
+          3           13    Q3.28       0               -54.8    4.453    -31.24
+          2           13    Q2.28     140               -32.8    4.463    -31.23
+          1           13    Q1.28    3308               -20.6    4.612    -31.01
+          0           13    Q0.28   40497               -13.4    5.697    -29.84
+          8           10    Q8.25       0               -42.2    4.406    -31.36
+          8            8    Q8.23       0               -34.6    4.574    -31.05
+          8            6    Q8.21       0               -28.4    4.990    -30.37
+          8            4    Q8.19       0               -24.2    5.154    -30.21
+          8            2    Q8.17       0               -21.5    4.753    -30.25
+          8            0    Q8.15       0               -17.8    5.720    -29.08
+
+=== Back-off +3 dB
+Punto flotante: EVM 1.315 %, ACPR -43.66 dB
+Error contra punto flotante, relativo a la salida: registros de 16 bits -53.0 dB, formato interno Q8.28 -54.2 dB, núcleo entero -51.6 dB. Saturaciones con Q8.28: 0.
+
+Pico de cada etapa antes de redondear, y bits enteros que necesita:
+   |x|^2                                2.07e-01   0
+   base, orden 1                        4.52e-01   0
+   coeficiente por base, orden 1        4.52e-01   0
+   acumulador                           1.03e+00   1
+   base, orden 3                        9.35e-02   0
+   coeficiente por base, orden 3        4.01e-03   0
+   |x|^4                                4.28e-02   0
+   base, orden 5                        1.93e-02   0
+   coeficiente por base, orden 5        5.14e-05   0
+   |x|^6                                8.87e-03   0
+   base, orden 7                        4.00e-03   0
+   coeficiente por base, orden 7        4.44e-07   0
+
+guarda ent. guarda frac.  formato  satur.  error interno [dB]  EVM [%] ACPR [dB]
+          8           13    Q8.28       0               -54.2    1.297    -43.60
+          4           13    Q4.28       0               -54.2    1.297    -43.60
+          3           13    Q3.28       0               -54.2    1.297    -43.60
+          2           13    Q2.28       0               -54.2    1.297    -43.60
+          1           13    Q1.28       0               -54.2    1.297    -43.60
+          0           13    Q0.28       2               -54.2    1.297    -43.60
+          8           10    Q8.25       0               -46.2    1.395    -43.44
+          8            8    Q8.23       0               -42.1    1.512    -43.07
+          8            6    Q8.21       0               -39.5    1.549    -42.85
+          8            4    Q8.19       0               -36.3    1.622    -42.10
+          8            2    Q8.17       0               -31.6    2.093    -40.21
+          8            0    Q8.15       0               -28.2    2.560    -39.10

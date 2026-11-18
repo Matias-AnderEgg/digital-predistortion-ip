@@ -1,0 +1,11 @@
+PA       BO  w              costo DLA    |grad| |grad NLMS|      EVM    ACPR
+tesis    +9  arranque          -20.43   1.0e+00     1.0e+00    1.88%   -42.5
+tesis    +9  optimo            -51.70   5.4e-09     2.4e-03    0.25%   -58.2
+tesis    +9  C, mu chico       -39.18   4.0e-01     6.5e-03    1.01%   -45.7
+tesis    +9  punto fijo          3.04   2.0e+03     2.5e-07    4.21%   -28.0
+             reg_energy en el arranque: maximo / mediana = 1182535
+libro   +18  arranque          -10.87   1.0e+00     1.0e+00    0.03%   -79.2
+libro   +18  optimo            -44.33   8.4e-10     2.0e-03    0.18%   -52.6
+libro   +18  C, mu chico       -28.13   3.2e-01     6.3e-03    3.18%   -34.7
+libro   +18  punto fijo         33.16   2.1e+05     4.0e-06   10.38%   -18.8
+             reg_energy en el arranque: maximo / mediana = 1533544

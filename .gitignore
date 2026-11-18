@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs y sistema
+.vscode/
+.idea/
+.DS_Store
+
+# Configuracion local de herramientas
+**/.claude/settings.local.json
+**/.claude/worktrees/
+
+# Documentacion de referencia (local, no versionar)
+docs ref/
+
+# Salidas que se regeneran corriendo cada script
+salida/
+figuras/*.pdf
+figuras/*.tex
+experimentos/resultados/*.csv
+fixed_point/golden_vectors/coeffs_cache.npz
+sw/dpd_train/build/
+sw/hw_test/vectores.h
+sw/hw_test/placa_mapa.h
+
+# Datos de lte_placa.py preparar. Las dos salidas de la placa se versionan,
+# porque las lee figuras/figuras_placa.py y no se regeneran sin la placa.
+sw/hw_test/lte/*.bin
+sw/hw_test/lte/*.npz
+sw/hw_test/lte/*.h
+!sw/hw_test/lte/salida_bo-9.bin
+!sw/hw_test/lte/salida_bo3.bin
+
+# Simulacion del RTL
+sim_build/
+*.vcd
+*.fst
+rtl/**/*.xml
+
+# Documentacion HTML del mapa de registros, sale de rtl/dpd_regs/run.py. El
+# RTL de gen/ si se versiona, para no depender de PeakRDL.
+rtl/dpd_regs/gen/html/
+
+# Vivado: el proyecto del diseno de bloques y los reportes, salvo los cinco
+# que lee rtl/synth/tabla_recursos.py.
+rtl/synth/placa/
+rtl/synth/reportes/*
+!rtl/synth/reportes/utilizacion_jerarquica.rpt
+!rtl/synth/reportes/impl_utilizacion.rpt
+!rtl/synth/reportes/impl_tiempos.rpt
+!rtl/synth/reportes/placa_utilizacion.rpt
+!rtl/synth/reportes/placa_tiempos.rpt

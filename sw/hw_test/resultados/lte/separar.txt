@@ -1,0 +1,16 @@
+BO -9 dB, coeficientes del C en la Mac (los de la placa):
+                                                      NMSE     EVM    ACPR  alterno
+  subtrama       sin DPD                           -11.18  21.64%   -20.3    -39.1
+  subtrama       DPD en flotante                   -24.07   3.61%   -31.0    -45.1
+  subtrama       w en Q0.15, camino en flotante    -24.06   3.62%   -31.0    -45.1
+  subtrama       todo en punto fijo (el IP)        -24.08   3.61%   -31.0    -45.1
+  364 simbolos   sin DPD                           -11.19  22.44%   -20.4    -39.4
+  364 simbolos   DPD en flotante                   -24.16   3.71%   -31.2    -45.5
+BO 3 dB, coeficientes del C en la Mac (los de la placa):
+                                                      NMSE     EVM    ACPR  alterno
+  subtrama       sin DPD                           -20.39   5.62%   -32.3    -65.7
+  subtrama       DPD en flotante                   -35.71   1.15%   -43.5    -69.7
+  subtrama       w en Q0.15, camino en flotante    -35.83   1.14%   -43.4    -69.6
+  subtrama       todo en punto fijo (el IP)        -35.74   1.15%   -43.4    -62.0
+  364 simbolos   sin DPD                           -20.36   5.91%   -32.5    -66.3
+  364 simbolos   DPD en flotante                   -35.56   1.24%   -43.7    -70.7

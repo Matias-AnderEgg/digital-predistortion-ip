@@ -1,0 +1,18 @@
+2f1b683f637747823c3ee6c9dd15c9a9  lte_eval_in.bin
+
+=== LTE 10 MHz: entrenamiento en el ARM, aplicacion en el IP ===
+FCLK0 100.000 MHz, ID 0x44504431, BO 3 dB
+16000 muestras, 40 epocas del modelo del PA y 5 del DPD
+modelo del PA:      6.68 s, 40 epocas, MSE final 5.464e-08
+predistorsionador:  3.16 s, 5 epocas, MSE final 3.609e-06
+total:              9.84 s
+contra el C en la Mac: h 2.6e-11 LSB, w 7.2e-11 LSB
+codigos Q0.15: 12 de 12 iguales a los de la Mac
+subtrama: 61440 muestras en 8 trozos, 26.5 ms con las copias a la BRAM
+coeficientes OK, la salida se compara en la Mac
+salida del IP: 61440 de 61440 muestras iguales al modelo de Python
+BO 3 dB, subtrama LTE de 61440 muestras:
+                     NMSE     EVM    ACPR  alterno
+  senal limpia      -inf   0.00%  -119.8   -154.5
+  sin DPD         -20.39   5.62%   -32.3    -65.7
+  con el IP       -35.74   1.15%   -43.4    -62.0

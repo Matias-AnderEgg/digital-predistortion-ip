@@ -1,0 +1,41 @@
+sw/lazo_simulado/lazo_lte.c -> /root/dpd_hw/lazo_lte.c: 7258 bytes, 1 s, md5 ok
+sw/dpd_train/dpd_train.c -> /root/dpd_hw/dpd_train.c: 16593 bytes, 1 s, md5 ok
+sw/dpd_train/dpd_train.h -> /root/dpd_hw/dpd_train.h: 5663 bytes, 1 s, md5 ok
+sw/hw_test/ip.c -> /root/dpd_hw/ip.c: 2979 bytes, 1 s, md5 ok
+sw/hw_test/ip.h -> /root/dpd_hw/ip.h: 1094 bytes, 1 s, md5 ok
+sw/hw_test/placa_mapa.h -> /root/dpd_hw/placa_mapa.h: 511 bytes, 1 s, md5 ok
+placa lista
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+sw/lazo_simulado/salida/lte_bo-9_n2000/y.bin -> /root/dpd_hw/y.bin: 64000 bytes, 7 s, md5 ok
+  modelo 6.680 s, 16000 muestras, 40 epocas, MSE 2.4748e-05
+vuelta  0: NMSE -11.19 dB, EVM 21.62 %, ACPR  -20.3 dB, alterno  -39.1 dB, PA a -0.01 dB, entrenar  397 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 45.6 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  1: NMSE -18.87 dB, EVM  7.67 %, ACPR  -26.4 dB, alterno  -44.7 dB, PA a +0.21 dB, entrenar  400 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.6 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  2: NMSE -20.39 dB, EVM  6.21 %, ACPR  -27.5 dB, alterno  -45.7 dB, PA a -0.26 dB, entrenar  400 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.3 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  3: NMSE -21.91 dB, EVM  4.81 %, ACPR  -29.0 dB, alterno  -45.1 dB, PA a +0.45 dB, entrenar  397 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.4 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  4: NMSE -22.77 dB, EVM  4.04 %, ACPR  -29.6 dB, alterno  -44.9 dB, PA a -0.22 dB, entrenar  400 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.1 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  5: NMSE -22.61 dB, EVM  4.11 %, ACPR  -29.5 dB, alterno  -45.1 dB, PA a -0.25 dB, entrenar  400 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.1 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  6: NMSE -24.14 dB, EVM  3.46 %, ACPR  -31.2 dB, alterno  -45.0 dB, PA a -0.08 dB, entrenar  397 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.3 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  7: NMSE -24.52 dB, EVM  3.29 %, ACPR  -31.1 dB, alterno  -44.8 dB, PA a -0.05 dB, entrenar  401 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.3 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  8: NMSE -25.02 dB, EVM  3.12 %, ACPR  -31.4 dB, alterno  -44.4 dB, PA a +0.17 dB, entrenar  401 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.1 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta  9: NMSE -24.68 dB, EVM  3.28 %, ACPR  -31.4 dB, alterno  -45.2 dB, PA a +0.36 dB, entrenar  401 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.3 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta 10: NMSE -25.16 dB, EVM  2.91 %, ACPR  -31.8 dB, alterno  -44.7 dB, PA a -0.32 dB, entrenar  400 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.3 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta 11: NMSE -24.53 dB, EVM  3.23 %, ACPR  -31.7 dB, alterno  -45.1 dB, PA a +0.37 dB, entrenar  400 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.5 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta 12: NMSE -24.96 dB, EVM  3.10 %, ACPR  -32.2 dB, alterno  -44.8 dB, PA a -0.04 dB, entrenar  400 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.0 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta 13: NMSE -25.43 dB, EVM  3.28 %, ACPR  -32.3 dB, alterno  -44.5 dB, PA a +0.01 dB, entrenar  397 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.3 s
+/root/dpd_hw/u.bin -> sw/lazo_simulado/salida/lte_bo-9_n2000/u.bin
+vuelta 14: NMSE -25.36 dB, EVM  2.98 %, ACPR  -32.8 dB, alterno  -45.1 dB, PA a -0.07 dB, entrenar  400 ms, IP 61440/61440 y w 12/12 iguales a la Mac, vuelta 30.0 s
+resultados en sw/lazo_simulado/resultados/lte_bo-9_n2000
+TODO IGUAL A LA MAC

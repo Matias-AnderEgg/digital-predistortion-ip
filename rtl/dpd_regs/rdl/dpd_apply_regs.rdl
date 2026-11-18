@@ -1,0 +1,117 @@
+// Mapa de registros AXI-Lite del bloque de aplicacion del DPD.
+//
+// Es la unica fuente del mapa. De aca salen, con PeakRDL, el RTL del bloque
+// de registros (rtl/dpd_regs/gen/) y la documentacion HTML.
+//
+// Los W_COEFF son el banco sombra. El activo, el que lee el datapath, esta
+// en dpd_apply_top y se carga entero cuando CTRL.COMMIT pulsa, entre dos
+// muestras, para que el datapath nunca use un juego mezclado. Leer W_COEFF
+// devuelve el sombra, que es lo que el host escribio.
+
+addrmap dpd_apply_regs #(
+    // Tienen que coincidir con los parametros de dpd_apply_core. CONFIG los
+    // informa para que el software los lea en vez de asumirlos.
+    longint unsigned M         = 3,   // taps de memoria
+    longint unsigned NORD      = 4,   // ordenes impares: 1, 3, 5, 7
+    longint unsigned LOG2_G    = 3,   // G     = 2^3 = 8
+    longint unsigned LOG2_GOUT = 7    // G_out = 2^7 = 128
+) {
+    name = "dpd_apply_regs";
+    desc = "Registros de configuracion del Memory Polynomial (bloque de aplicacion).";
+
+    default regwidth    = 32;
+    default accesswidth = 32;
+
+    reg {
+        name = "Identificacion";
+        desc = "Constante de solo lectura. Sirve para que el software confirme
+                que esta hablando con este IP y no con otra cosa del bus.";
+        field {
+            sw = r; hw = na;
+            desc = "'DPD1' en ASCII.";
+        } ID[31:0] = 0x44504431;
+    } ID @ 0x000;
+
+    reg {
+        name = "Parametros de la instancia";
+        desc = "El modulo es parametrizable, asi que el host no puede asumir
+                cuantos taps ni cuantos ordenes hay, ni en que escalas
+                trabaja. El script de Python que entrena los coeficientes
+                necesita exactamente estos cuatro numeros, asi que se leen del
+                hardware en vez de repetirse en los dos lados.";
+
+        field { sw = r; hw = na; desc = "Taps de memoria."; }        M[3:0]         = M;
+        field { sw = r; hw = na; desc = "Cantidad de ordenes impares."; } NORD[7:4]  = NORD;
+        field { sw = r; hw = na; desc = "log2 de la escala de entrada G."; } LOG2_G[12:8] = LOG2_G;
+        field { sw = r; hw = na; desc = "log2 de la escala de salida G_out."; } LOG2_GOUT[20:16] = LOG2_GOUT;
+    } CONFIG @ 0x004;
+
+    reg {
+        name = "Control";
+
+        field {
+            sw = rw; hw = r;
+            desc = "1 fuerza la salida a la entrada, sin predistorsion,
+                    para medir con y sin predistorsion sin tocar los
+                    coeficientes. La entrada se corre LOG2_GOUT-LOG2_G bits a
+                    la derecha con redondeo, a la escala de salida, y se
+                    retrasa la latencia del datapath, asi que conmutar no
+                    cambia el nivel.";
+        } BYPASS[0:0] = 0;
+
+        field {
+            sw = rw; hw = r;
+            desc = "Quien escribe el banco activo. 0 = el host, por el
+                    sombra y COMMIT. 1 = la escritura directa de los puertos
+                    lazo_* de dpd_apply_top, prevista para un lazo de
+                    adaptacion en la logica que no se construyo.";
+        } COEF_SRC[1:1] = 0;
+
+        field {
+            sw = rw; hw = r; singlepulse;
+            desc = "Escribir 1 pide copiar el banco sombra al activo. El bit
+                    vuelve solo a cero en el ciclo siguiente. La copia ocurre
+                    entre dos muestras, y hasta entonces
+                    STATUS.COMMIT_PENDING queda en 1.";
+        } COMMIT[8:8] = 0;
+    } CTRL @ 0x008;
+
+    reg {
+        name = "Estado";
+        field {
+            sw = r; hw = w;
+            desc = "1 mientras haya un COMMIT pedido que todavia no se
+                    aplico. El software puede escribir el sombra de nuevo sin
+                    esperar, pero si lo hace pisa la carga que estaba por
+                    entrar.";
+        } COMMIT_PENDING[0:0] = 0;
+
+        // Bit 1 reservado para una bandera de saturacion de la salida, que
+        // pediria que dpd_apply_core sacara una senal de saturacion.
+    } STATUS @ 0x00C;
+
+    // Banco sombra. Arranca en 0x040 para dejar lugar a mas registros de
+    // control o estado sin mover los coeficientes, y va ultimo porque su
+    // cantidad depende de M y NORD.
+    reg coef_reg {
+        name = "Coeficiente complejo";
+        desc = "Las dos componentes en un solo registro de 32 bits, para que
+                un coeficiente entre de una escritura y no de dos.
+                Formato s16/15 cada componente, o sea 0x7FFF = 0.999969.";
+        // swmod avisa a dpd_apply_top que el host escribio este coeficiente,
+        // para armar el COMMIT (ver abajo).
+        field { sw = rw; hw = r; swmod; desc = "Parte real, s16/15.";      } RE[15:0]  = 0;
+        field { sw = rw; hw = r; swmod; desc = "Parte imaginaria, s16/15."; } IM[31:16] = 0;
+    };
+
+    // Indice col = q*NORD + j, con j el indice de orden. col 0..3 = tap 0
+    // (p = 1,3,5,7), col 4..7 = tap 1, col 8..11 = tap 2. Es el mismo orden
+    // que usan dpd_apply_core y los archivos coeffs_w_re.hex / coeffs_w_im.hex.
+    coef_reg W_COEFF[M*NORD] @ 0x040 += 0x4;
+
+    // El sombra arranca en cero y el activo en paso directo (w[q=0,p=1] =
+    // 0x7FFF, el resto en cero), asi que un COMMIT antes de la primera carga
+    // dejaria la salida en cero. SystemRDL no deja darle otro valor de reset
+    // a un solo elemento del arreglo, entonces dpd_apply_top ignora COMMIT
+    // hasta que el host escribe algun W_COEFF.
+};

@@ -1,0 +1,507 @@
+M = 3, P = 7, 8000 muestras, mu_h = 0.001, 40 épocas, sin guarda
+semilla   pico  g_media  g_pico     -9.0    -6.0    -3.0    +0.0    +3.0    +6.0    +9.0
+     63   3.71   0.0120   11.76    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     28   3.44   0.0120   10.75    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    145   3.52   0.0120    9.21    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    168   3.36   0.0120    8.95    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     88   3.26   0.0120    8.30    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    156   3.31   0.0120    8.27    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    164   3.29   0.0120    8.19    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     98   3.49   0.0120    8.04    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     64   3.24   0.0120    7.79    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     99   3.36   0.0120    7.61    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     82   3.32   0.0120    7.49    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    190   3.27   0.0120    7.39    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    159   3.43   0.0120    7.30    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    116   3.34   0.0120    7.30    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     85   3.14   0.0120    7.10    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     14   3.26   0.0120    7.05    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    139   3.18   0.0120    6.89    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+      2   3.24   0.0120    6.84    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     95   3.29   0.0120    6.76    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    113   3.39   0.0120    6.50    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    126   3.14   0.0120    6.49    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     48   3.29   0.0120    6.39    ok      ok      ok      ok      ok      ok      ok  
+    175   3.40   0.0120    6.32    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     65   2.99   0.0120    6.14    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    132   3.14   0.0120    5.97    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     77   3.27   0.0120    5.87    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     78   3.06   0.0120    5.76    ok      ok      ok      ok      ok      ok      ok  
+     53   3.18   0.0120    5.66    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     70   3.16   0.0120    5.58    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    114   3.08   0.0120    5.55    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    130   3.06   0.0120    5.49    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     74   3.24   0.0120    5.47    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     46   3.07   0.0120    5.41    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+    124   3.13   0.0120    5.40    DIV     DIV     DIV     DIV     DIV     DIV     DIV 
+     76   3.07   0.0120    5.27    DIV     DIV     DIV     DIV     ok      ok      ok  
+     60   3.11   0.0120    5.22    ok      DIV     ok      ok      ok      ok      ok  
+     50   3.11   0.0120    5.04    ok      ok      ok      ok      ok      ok      ok  
+    196   3.04   0.0120    5.03    ok      ok      ok      ok      ok      ok      ok  
+     83   3.16   0.0120    4.95    ok      ok      ok      ok      ok      ok      ok  
+    111   2.97   0.0120    4.91    ok      ok      ok      ok      ok      ok      ok  
+     96   3.08   0.0120    4.90    ok      ok      ok      ok      ok      ok      ok  
+     62   3.05   0.0120    4.89    ok      ok      ok      ok      ok      ok      ok  
+    193   3.10   0.0120    4.74    ok      ok      ok      ok      ok      ok      ok  
+    103   3.21   0.0120    4.74    ok      ok      ok      ok      ok      ok      ok  
+     49   3.07   0.0120    4.71    ok      ok      ok      ok      ok      ok      ok  
+    184   3.04   0.0120    4.64    ok      ok      ok      ok      ok      ok      ok  
+     71   3.03   0.0120    4.52    ok      ok      ok      ok      ok      ok      ok  
+     91   3.02   0.0120    4.47    ok      ok      ok      ok      ok      ok      ok  
+     17   3.02   0.0120    4.46    ok      ok      ok      ok      ok      ok      ok  
+    149   3.01   0.0120    4.46    ok      ok      ok      ok      ok      ok      ok  
+    176   3.02   0.0120    4.41    ok      ok      ok      ok      ok      ok      ok  
+     56   3.12   0.0120    4.38    ok      ok      ok      ok      ok      ok      ok  
+    174   2.97   0.0120    4.33    ok      ok      ok      ok      ok      ok      ok  
+     66   3.09   0.0120    4.32    ok      ok      ok      ok      ok      ok      ok  
+     10   2.98   0.0120    4.17    ok      ok      ok      ok      ok      ok      ok  
+    129   2.93   0.0120    4.11    ok      ok      ok      ok      ok      ok      ok  
+    107   2.98   0.0120    4.10    ok      ok      ok      ok      ok      ok      ok  
+    171   3.08   0.0120    4.07    ok      ok      ok      ok      ok      ok      ok  
+     31   3.00   0.0120    4.02    ok      ok      ok      ok      ok      ok      ok  
+    125   3.11   0.0120    4.01    ok      ok      ok      ok      ok      ok      ok  
+     22   2.90   0.0120    3.98    ok      ok      ok      ok      ok      ok      ok  
+    110   2.98   0.0120    3.98    ok      ok      ok      ok      ok      ok      ok  
+     61   2.85   0.0120    3.96    ok      ok      ok      ok      ok      ok      ok  
+    160   2.99   0.0120    3.96    ok      ok      ok      ok      ok      ok      ok  
+    189   3.02   0.0120    3.94    ok      ok      ok      ok      ok      ok      ok  
+    123   2.81   0.0120    3.94    ok      ok      ok      ok      ok      ok      ok  
+    123   2.81   0.0120    3.94    ok      ok      ok      ok      ok      ok      ok  
+     42   2.88   0.0120    3.93    ok      ok      ok      ok      ok      ok      ok  
+     44   3.10   0.0120    3.91    ok      ok      ok      ok      ok      ok      ok  
+    151   3.03   0.0120    3.90    ok      ok      ok      ok      ok      ok      ok  
+    173   2.96   0.0120    3.80    ok      ok      ok      ok      ok      ok      ok  
+     27   2.99   0.0120    3.76    ok      ok      ok      ok      ok      ok      ok  
+    158   2.88   0.0120    3.74    ok      ok      ok      ok      ok      ok      ok  
+    182   2.93   0.0120    3.72    ok      ok      ok      ok      ok      ok      ok  
+    172   3.32   0.0120    3.71    ok      ok      ok      ok      ok      ok      ok  
+    105   2.99   0.0120    3.70    ok      ok      ok      ok      ok      ok      ok  
+    143   3.02   0.0120    3.63    ok      ok      ok      ok      ok      ok      ok  
+      1   3.02   0.0120    3.54    ok      ok      ok      ok      ok      ok      ok  
+     45   2.90   0.0120    3.51    ok      ok      ok      ok      ok      ok      ok  
+    187   2.97   0.0120    3.51    ok      ok      ok      ok      ok      ok      ok  
+    138   2.95   0.0120    3.51    ok      ok      ok      ok      ok      ok      ok  
+     16   2.98   0.0120    3.48    ok      ok      ok      ok      ok      ok      ok  
+     38   2.95   0.0120    3.47    ok      ok      ok      ok      ok      ok      ok  
+    101   3.04   0.0120    3.46    ok      ok      ok      ok      ok      ok      ok  
+    117   2.95   0.0120    3.45    ok      ok      ok      ok      ok      ok      ok  
+     55   2.94   0.0120    3.44    ok      ok      ok      ok      ok      ok      ok  
+    169   3.03   0.0120    3.43    ok      ok      ok      ok      ok      ok      ok  
+     97   2.88   0.0120    3.43    ok      ok      ok      ok      ok      ok      ok  
+     33   2.98   0.0120    3.42    ok      ok      ok      ok      ok      ok      ok  
+     41   2.94   0.0120    3.37    ok      ok      ok      ok      ok      ok      ok  
+      3   2.88   0.0120    3.37    ok      ok      ok      ok      ok      ok      ok  
+    146   3.06   0.0120    3.36    ok      ok      ok      ok      ok      ok      ok  
+    141   2.88   0.0120    3.35    ok      ok      ok      ok      ok      ok      ok  
+    194   2.97   0.0120    3.34    ok      ok      ok      ok      ok      ok      ok  
+    161   3.02   0.0120    3.30    ok      ok      ok      ok      ok      ok      ok  
+     59   2.88   0.0120    3.30    ok      ok      ok      ok      ok      ok      ok  
+    134   2.84   0.0120    3.30    ok      ok      ok      ok      ok      ok      ok  
+    112   2.97   0.0120    3.28    ok      ok      ok      ok      ok      ok      ok  
+    135   2.96   0.0120    3.27    ok      ok      ok      ok      ok      ok      ok  
+    185   2.89   0.0120    3.24    ok      ok      ok      ok      ok      ok      ok  
+     79   2.98   0.0120    3.18    ok      ok      ok      ok      ok      ok      ok  
+      4   2.98   0.0120    3.14    ok      ok      ok      ok      ok      ok      ok  
+    144   3.00   0.0120    3.12    ok      ok      ok      ok      ok      ok      ok  
+    137   2.88   0.0120    3.11    ok      ok      ok      ok      ok      ok      ok  
+     89   2.79   0.0120    3.09    ok      ok      ok      ok      ok      ok      ok  
+     87   2.99   0.0120    3.08    ok      ok      ok      ok      ok      ok      ok  
+     69   2.93   0.0120    3.03    ok      ok      ok      ok      ok      ok      ok  
+     29   2.93   0.0120    3.02    ok      ok      ok      ok      ok      ok      ok  
+    108   2.85   0.0120    2.99    ok      ok      ok      ok      ok      ok      ok  
+    150   2.86   0.0120    2.91    ok      ok      ok      ok      ok      ok      ok  
+    186   2.87   0.0120    2.91    ok      ok      ok      ok      ok      ok      ok  
+     32   2.90   0.0120    2.90    ok      ok      ok      ok      ok      ok      ok  
+      5   2.85   0.0120    2.89    ok      ok      ok      ok      ok      ok      ok  
+     94   2.80   0.0120    2.88    ok      ok      ok      ok      ok      ok      ok  
+     43   2.73   0.0120    2.82    ok      ok      ok      ok      ok      ok      ok  
+    136   2.92   0.0120    2.82    ok      ok      ok      ok      ok      ok      ok  
+    109   2.84   0.0120    2.80    ok      ok      ok      ok      ok      ok      ok  
+    178   2.77   0.0120    2.77    ok      ok      ok      ok      ok      ok      ok  
+     30   2.94   0.0120    2.73    ok      ok      ok      ok      ok      ok      ok  
+     39   2.87   0.0120    2.70    ok      ok      ok      ok      ok      ok      ok  
+    198   2.87   0.0120    2.69    ok      ok      ok      ok      ok      ok      ok  
+    195   2.79   0.0120    2.69    ok      ok      ok      ok      ok      ok      ok  
+     19   2.86   0.0120    2.68    ok      ok      ok      ok      ok      ok      ok  
+     86   2.92   0.0120    2.67    ok      ok      ok      ok      ok      ok      ok  
+    170   2.99   0.0120    2.67    ok      ok      ok      ok      ok      ok      ok  
+     21   2.90   0.0120    2.67    ok      ok      ok      ok      ok      ok      ok  
+     67   2.88   0.0120    2.65    ok      ok      ok      ok      ok      ok      ok  
+    177   2.86   0.0120    2.65    ok      ok      ok      ok      ok      ok      ok  
+     11   2.89   0.0120    2.64    ok      ok      ok      ok      ok      ok      ok  
+    165   2.80   0.0120    2.63    ok      ok      ok      ok      ok      ok      ok  
+    180   2.82   0.0120    2.60    ok      ok      ok      ok      ok      ok      ok  
+     73   2.78   0.0120    2.60    ok      ok      ok      ok      ok      ok      ok  
+    133   2.90   0.0120    2.59    ok      ok      ok      ok      ok      ok      ok  
+    106   2.81   0.0120    2.59    ok      ok      ok      ok      ok      ok      ok  
+      9   2.84   0.0120    2.56    ok      ok      ok      ok      ok      ok      ok  
+    188   2.84   0.0120    2.54    ok      ok      ok      ok      ok      ok      ok  
+    148   2.83   0.0120    2.51    ok      ok      ok      ok      ok      ok      ok  
+     92   2.72   0.0120    2.51    ok      ok      ok      ok      ok      ok      ok  
+    197   2.69   0.0120    2.50    ok      ok      ok      ok      ok      ok      ok  
+    199   2.80   0.0120    2.48    ok      ok      ok      ok      ok      ok      ok  
+    119   2.85   0.0120    2.48    ok      ok      ok      ok      ok      ok      ok  
+    167   2.83   0.0120    2.47    ok      ok      ok      ok      ok      ok      ok  
+     24   2.84   0.0120    2.47    ok      ok      ok      ok      ok      ok      ok  
+    191   2.72   0.0120    2.45    ok      ok      ok      ok      ok      ok      ok  
+    100   2.91   0.0120    2.45    ok      ok      ok      ok      ok      ok      ok  
+    179   2.85   0.0120    2.44    ok      ok      ok      ok      ok      ok      ok  
+      6   3.01   0.0120    2.44    ok      ok      ok      ok      ok      ok      ok  
+     47   2.79   0.0120    2.43    ok      ok      ok      ok      ok      ok      ok  
+     37   2.94   0.0120    2.42    ok      ok      ok      ok      ok      ok      ok  
+    118   2.70   0.0120    2.41    ok      ok      ok      ok      ok      ok      ok  
+     81   2.82   0.0120    2.40    ok      ok      ok      ok      ok      ok      ok  
+    154   2.76   0.0120    2.40    ok      ok      ok      ok      ok      ok      ok  
+    152   2.80   0.0120    2.33    ok      ok      ok      ok      ok      ok      ok  
+    153   2.77   0.0120    2.30    ok      ok      ok      ok      ok      ok      ok  
+     93   2.80   0.0120    2.27    ok      ok      ok      ok      ok      ok      ok  
+     72   2.88   0.0120    2.27    ok      ok      ok      ok      ok      ok      ok  
+      7   2.77   0.0120    2.27    ok      ok      ok      ok      ok      ok      ok  
+    147   2.71   0.0120    2.24    ok      ok      ok      ok      ok      ok      ok  
+     20   2.74   0.0120    2.24    ok      ok      ok      ok      ok      ok      ok  
+     58   2.87   0.0120    2.19    ok      ok      ok      ok      ok      ok      ok  
+    104   2.86   0.0120    2.15    ok      ok      ok      ok      ok      ok      ok  
+      8   2.71   0.0120    2.15    ok      ok      ok      ok      ok      ok      ok  
+     68   2.83   0.0120    2.13    ok      ok      ok      ok      ok      ok      ok  
+    115   2.83   0.0120    2.13    ok      ok      ok      ok      ok      ok      ok  
+     34   2.67   0.0120    2.12    ok      ok      ok      ok      ok      ok      ok  
+    166   2.75   0.0120    2.11    ok      ok      ok      ok      ok      ok      ok  
+     51   2.76   0.0120    2.11    ok      ok      ok      ok      ok      ok      ok  
+    163   2.83   0.0120    2.07    ok      ok      ok      ok      ok      ok      ok  
+    157   2.66   0.0120    2.06    ok      ok      ok      ok      ok      ok      ok  
+    155   2.78   0.0120    2.05    ok      ok      ok      ok      ok      ok      ok  
+    162   2.67   0.0120    1.97    ok      ok      ok      ok      ok      ok      ok  
+    127   2.65   0.0120    1.96    ok      ok      ok      ok      ok      ok      ok  
+     90   2.67   0.0120    1.96    ok      ok      ok      ok      ok      ok      ok  
+    140   2.82   0.0120    1.91    ok      ok      ok      ok      ok      ok      ok  
+     25   2.76   0.0120    1.91    ok      ok      ok      ok      ok      ok      ok  
+    121   2.64   0.0120    1.88    ok      ok      ok      ok      ok      ok      ok  
+     57   2.64   0.0120    1.87    ok      ok      ok      ok      ok      ok      ok  
+     40   2.70   0.0120    1.86    ok      ok      ok      ok      ok      ok      ok  
+     12   2.65   0.0120    1.82    ok      ok      ok      ok      ok      ok      ok  
+     52   2.78   0.0120    1.82    ok      ok      ok      ok      ok      ok      ok  
+     84   2.74   0.0120    1.82    ok      ok      ok      ok      ok      ok      ok  
+    122   2.70   0.0120    1.81    ok      ok      ok      ok      ok      ok      ok  
+     23   2.83   0.0120    1.81    ok      ok      ok      ok      ok      ok      ok  
+     35   2.71   0.0120    1.75    ok      ok      ok      ok      ok      ok      ok  
+    192   2.69   0.0120    1.74    ok      ok      ok      ok      ok      ok      ok  
+     80   2.72   0.0120    1.69    ok      ok      ok      ok      ok      ok      ok  
+     15   2.74   0.0120    1.67    ok      ok      ok      ok      ok      ok      ok  
+    102   2.60   0.0120    1.64    ok      ok      ok      ok      ok      ok      ok  
+    142   2.72   0.0120    1.60    ok      ok      ok      ok      ok      ok      ok  
+     54   2.57   0.0120    1.58    ok      ok      ok      ok      ok      ok      ok  
+     13   2.66   0.0120    1.56    ok      ok      ok      ok      ok      ok      ok  
+     36   2.59   0.0120    1.53    ok      ok      ok      ok      ok      ok      ok  
+    128   2.68   0.0120    1.45    ok      ok      ok      ok      ok      ok      ok  
+    120   2.72   0.0120    1.31    ok      ok      ok      ok      ok      ok      ok  
+    131   2.59   0.0120    1.30    ok      ok      ok      ok      ok      ok      ok  
+     26   2.55   0.0120    1.28    ok      ok      ok      ok      ok      ok      ok  
+     18   2.58   0.0120    1.28    ok      ok      ok      ok      ok      ok      ok  
+     75   2.57   0.0120    1.18    ok      ok      ok      ok      ok      ok      ok  
+    183   2.56   0.0120    1.18    ok      ok      ok      ok      ok      ok      ok  
+    181   2.57   0.0120    1.01    ok      ok      ok      ok      ok      ok      ok  
+
+MSE del modelo, primera y última época, en las que divergen:
+  semilla   2, BO  -9.0 dB: 29.9 -> 3.73e+53
+  semilla   2, BO  -6.0 dB: 19.7 -> 2.36e+53
+  semilla   2, BO  -3.0 dB: 9.78 -> 1.14e+53
+  semilla   2, BO  +0.0 dB: 3.55 -> 4.08e+52
+  semilla   2, BO  +3.0 dB: 0.994 -> 1.16e+52
+  semilla   2, BO  +6.0 dB: 0.247 -> 3.03e+51
+  semilla   2, BO  +9.0 dB: 0.0652 -> 8.56e+50
+  semilla  14, BO  -9.0 dB: 79.4 -> 1.34e+65
+  semilla  14, BO  -6.0 dB: 44 -> 7.44e+64
+  semilla  14, BO  -3.0 dB: 18.1 -> 3.03e+64
+  semilla  14, BO  +0.0 dB: 5.47 -> 8.97e+63
+  semilla  14, BO  +3.0 dB: 1.33 -> 2.06e+63
+  semilla  14, BO  +6.0 dB: 0.31 -> 4.38e+62
+  semilla  14, BO  +9.0 dB: 0.0839 -> 1.06e+62
+  semilla  28, BO  -9.0 dB: 2.5e+03 -> 3.89e+141
+  semilla  28, BO  -6.0 dB: 1.54e+03 -> 2.38e+141
+  semilla  28, BO  -3.0 dB: 724 -> 1.11e+141
+  semilla  28, BO  +0.0 dB: 249 -> 3.81e+140
+  semilla  28, BO  +3.0 dB: 63.3 -> 9.68e+139
+  semilla  28, BO  +6.0 dB: 12.9 -> 1.98e+139
+  semilla  28, BO  +9.0 dB: 2.45 -> 3.77e+138
+  semilla  46, BO  -9.0 dB: 1.64 -> 1.4e+06
+  semilla  46, BO  -6.0 dB: 0.791 -> 1.06e+06
+  semilla  46, BO  -3.0 dB: 0.279 -> 5.17e+05
+  semilla  46, BO  +0.0 dB: 0.073 -> 1.56e+05
+  semilla  46, BO  +3.0 dB: 0.0161 -> 2.89e+04
+  semilla  46, BO  +6.0 dB: 0.00381 -> 3.36e+03
+  semilla  46, BO  +9.0 dB: 0.00116 -> 335
+  semilla  53, BO  -9.0 dB: 0.359 -> 2.18e+12
+  semilla  53, BO  -6.0 dB: 0.194 -> 1.27e+12
+  semilla  53, BO  -3.0 dB: 0.0799 -> 5.23e+11
+  semilla  53, BO  +0.0 dB: 0.0256 -> 1.45e+11
+  semilla  53, BO  +3.0 dB: 0.00709 -> 2.73e+10
+  semilla  53, BO  +6.0 dB: 0.00206 -> 3.71e+09
+  semilla  53, BO  +9.0 dB: 0.000714 -> 3.91e+08
+  semilla  60, BO  -6.0 dB: 0.207 -> 8.53
+  semilla  63, BO  -9.0 dB: 658 -> 3.45e+151
+  semilla  63, BO  -6.0 dB: 522 -> 2.71e+151
+  semilla  63, BO  -3.0 dB: 320 -> 1.65e+151
+  semilla  63, BO  +0.0 dB: 136 -> 6.96e+150
+  semilla  63, BO  +3.0 dB: 38.4 -> 1.96e+150
+  semilla  63, BO  +6.0 dB: 7.09 -> 3.62e+149
+  semilla  63, BO  +9.0 dB: 0.892 -> 4.57e+148
+  semilla  64, BO  -9.0 dB: 63.4 -> 3.32e+63
+  semilla  64, BO  -6.0 dB: 33.5 -> 1.83e+63
+  semilla  64, BO  -3.0 dB: 13 -> 7.42e+62
+  semilla  64, BO  +0.0 dB: 3.7 -> 2.18e+62
+  semilla  64, BO  +3.0 dB: 0.818 -> 4.86e+61
+  semilla  64, BO  +6.0 dB: 0.166 -> 9.53e+60
+  semilla  64, BO  +9.0 dB: 0.0384 -> 2.06e+60
+  semilla  65, BO  -9.0 dB: 3.66 -> 2.11e+26
+  semilla  65, BO  -6.0 dB: 2.12 -> 1.36e+26
+  semilla  65, BO  -3.0 dB: 0.928 -> 6.29e+25
+  semilla  65, BO  +0.0 dB: 0.307 -> 2.04e+25
+  semilla  65, BO  +3.0 dB: 0.0841 -> 4.9e+24
+  semilla  65, BO  +6.0 dB: 0.0223 -> 9.86e+23
+  semilla  65, BO  +9.0 dB: 0.00664 -> 1.98e+23
+  semilla  70, BO  -9.0 dB: 0.714 -> 9.13e+11
+  semilla  70, BO  -6.0 dB: 0.422 -> 9.11e+11
+  semilla  70, BO  -3.0 dB: 0.194 -> 6.91e+11
+  semilla  70, BO  +0.0 dB: 0.0681 -> 3.09e+11
+  semilla  70, BO  +3.0 dB: 0.0196 -> 8.02e+10
+  semilla  70, BO  +6.0 dB: 0.00538 -> 1.22e+10
+  semilla  70, BO  +9.0 dB: 0.00165 -> 9.22e+08
+  semilla  74, BO  -9.0 dB: 0.303 -> 3.17e+06
+  semilla  74, BO  -6.0 dB: 0.18 -> 3.54e+04
+  semilla  74, BO  -3.0 dB: 0.0824 -> 4.38e+05
+  semilla  74, BO  +0.0 dB: 0.0287 -> 4.31e+05
+  semilla  74, BO  +3.0 dB: 0.00816 -> 1.23e+05
+  semilla  74, BO  +6.0 dB: 0.00222 -> 1.71e+04
+  semilla  74, BO  +9.0 dB: 0.000689 -> 1.08e+04
+  semilla  76, BO  -9.0 dB: 0.388 -> 20.8
+  semilla  76, BO  -6.0 dB: 0.235 -> 11.6
+  semilla  76, BO  -3.0 dB: 0.11 -> 4.52
+  semilla  76, BO  +0.0 dB: 0.0395 -> 1.14
+  semilla  77, BO  -9.0 dB: 0.435 -> 2.87e+10
+  semilla  77, BO  -6.0 dB: 0.269 -> 1.97e+10
+  semilla  77, BO  -3.0 dB: 0.131 -> 1.12e+10
+  semilla  77, BO  +0.0 dB: 0.0504 -> 5.3e+09
+  semilla  77, BO  +3.0 dB: 0.0172 -> 2.32e+09
+  semilla  77, BO  +6.0 dB: 0.00614 -> 1.04e+09
+  semilla  77, BO  +9.0 dB: 0.00252 -> 4.98e+08
+  semilla  82, BO  -9.0 dB: 44.2 -> 2.74e+73
+  semilla  82, BO  -6.0 dB: 31.9 -> 1.9e+73
+  semilla  82, BO  -3.0 dB: 17.1 -> 9.91e+72
+  semilla  82, BO  +0.0 dB: 6.49 -> 3.7e+72
+  semilla  82, BO  +3.0 dB: 1.79 -> 1.03e+72
+  semilla  82, BO  +6.0 dB: 0.4 -> 2.38e+71
+  semilla  82, BO  +9.0 dB: 0.0864 -> 5.48e+70
+  semilla  85, BO  -9.0 dB: 2.96 -> 3.12e+55
+  semilla  85, BO  -6.0 dB: 1.55 -> 1.58e+55
+  semilla  85, BO  -3.0 dB: 0.62 -> 6.03e+54
+  semilla  85, BO  +0.0 dB: 0.201 -> 1.78e+54
+  semilla  85, BO  +3.0 dB: 0.0615 -> 4.76e+53
+  semilla  85, BO  +6.0 dB: 0.0216 -> 1.43e+53
+  semilla  85, BO  +9.0 dB: 0.00908 -> 5.4e+52
+  semilla  88, BO  -9.0 dB: 344 -> 3.98e+103
+  semilla  88, BO  -6.0 dB: 191 -> 2.21e+103
+  semilla  88, BO  -3.0 dB: 81 -> 9.36e+102
+  semilla  88, BO  +0.0 dB: 26.4 -> 3.06e+102
+  semilla  88, BO  +3.0 dB: 7.29 -> 8.53e+101
+  semilla  88, BO  +6.0 dB: 2.04 -> 2.42e+101
+  semilla  88, BO  +9.0 dB: 0.663 -> 8.01e+100
+  semilla  95, BO  -9.0 dB: 0.262 -> 1.84e+06
+  semilla  95, BO  -6.0 dB: 0.0203 -> 1.69e+06
+  semilla  95, BO  -3.0 dB: 0.0625 -> 1.1e+06
+  semilla  95, BO  +0.0 dB: 0.0564 -> 4.49e+05
+  semilla  95, BO  +3.0 dB: 0.0189 -> 1.07e+05
+  semilla  95, BO  +6.0 dB: 0.00285 -> 1.4e+04
+  semilla  95, BO  +9.0 dB: 0.0005 -> 2.13e+03
+  semilla  98, BO  -9.0 dB: 39.1 -> 6.04e+89
+  semilla  98, BO  -6.0 dB: 23.5 -> 3.68e+89
+  semilla  98, BO  -3.0 dB: 11 -> 1.75e+89
+  semilla  98, BO  +0.0 dB: 3.96 -> 6.34e+88
+  semilla  98, BO  +3.0 dB: 1.17 -> 1.88e+88
+  semilla  98, BO  +6.0 dB: 0.332 -> 5.27e+87
+  semilla  98, BO  +9.0 dB: 0.105 -> 1.64e+87
+  semilla  99, BO  -9.0 dB: 7.47 -> 2.55e+54
+  semilla  99, BO  -6.0 dB: 3.55 -> 1.24e+54
+  semilla  99, BO  -3.0 dB: 1.29 -> 4.73e+53
+  semilla  99, BO  +0.0 dB: 0.418 -> 1.68e+53
+  semilla  99, BO  +3.0 dB: 0.158 -> 7.08e+52
+  semilla  99, BO  +6.0 dB: 0.0762 -> 3.67e+52
+  semilla  99, BO  +9.0 dB: 0.0419 -> 2.09e+52
+  semilla 113, BO  -9.0 dB: 67.4 -> 2.3e+19
+  semilla 113, BO  -6.0 dB: 39.2 -> 1.27e+19
+  semilla 113, BO  -3.0 dB: 17.4 -> 5.42e+18
+  semilla 113, BO  +0.0 dB: 5.79 -> 1.76e+18
+  semilla 113, BO  +3.0 dB: 1.55 -> 4.74e+17
+  semilla 113, BO  +6.0 dB: 0.382 -> 1.22e+17
+  semilla 113, BO  +9.0 dB: 0.104 -> 3.53e+16
+  semilla 114, BO  -9.0 dB: 0.0239 -> 4.26e+18
+  semilla 114, BO  -6.0 dB: 0.00934 -> 1.32e+18
+  semilla 114, BO  -3.0 dB: 0.00484 -> 2.39e+17
+  semilla 114, BO  +0.0 dB: 0.00233 -> 2.73e+16
+  semilla 114, BO  +3.0 dB: 0.000891 -> 5.76e+15
+  semilla 114, BO  +6.0 dB: 0.000499 -> 3.49e+15
+  semilla 114, BO  +9.0 dB: 0.000395 -> 2.62e+15
+  semilla 116, BO  -9.0 dB: 5.37 -> 2.26e+67
+  semilla 116, BO  -6.0 dB: 3.62 -> 1.65e+67
+  semilla 116, BO  -3.0 dB: 1.94 -> 9.54e+66
+  semilla 116, BO  +0.0 dB: 0.797 -> 4.08e+66
+  semilla 116, BO  +3.0 dB: 0.253 -> 1.31e+66
+  semilla 116, BO  +6.0 dB: 0.0675 -> 3.45e+65
+  semilla 116, BO  +9.0 dB: 0.0175 -> 8.58e+64
+  semilla 124, BO  -9.0 dB: 0.247 -> 1.88e+13
+  semilla 124, BO  -6.0 dB: 0.11 -> 8.02e+12
+  semilla 124, BO  -3.0 dB: 0.0368 -> 2.36e+12
+  semilla 124, BO  +0.0 dB: 0.0102 -> 4.81e+11
+  semilla 124, BO  +3.0 dB: 0.00303 -> 7.83e+10
+  semilla 124, BO  +6.0 dB: 0.00116 -> 1.39e+10
+  semilla 124, BO  +9.0 dB: 0.000549 -> 3.55e+09
+  semilla 126, BO  -9.0 dB: 1.37 -> 8.51e+38
+  semilla 126, BO  -6.0 dB: 0.749 -> 4.49e+38
+  semilla 126, BO  -3.0 dB: 0.314 -> 1.75e+38
+  semilla 126, BO  +0.0 dB: 0.105 -> 5.19e+37
+  semilla 126, BO  +3.0 dB: 0.0326 -> 1.32e+37
+  semilla 126, BO  +6.0 dB: 0.0111 -> 3.61e+36
+  semilla 126, BO  +9.0 dB: 0.00442 -> 1.23e+36
+  semilla 130, BO  -9.0 dB: 0.321 -> 4.44e+16
+  semilla 130, BO  -6.0 dB: 0.159 -> 2.02e+16
+  semilla 130, BO  -3.0 dB: 0.0592 -> 6.32e+15
+  semilla 130, BO  +0.0 dB: 0.0177 -> 1.36e+15
+  semilla 130, BO  +3.0 dB: 0.00505 -> 2.16e+14
+  semilla 130, BO  +6.0 dB: 0.00169 -> 3.16e+13
+  semilla 130, BO  +9.0 dB: 0.000691 -> 5.85e+12
+  semilla 132, BO  -9.0 dB: 0.81 -> 6.41e+24
+  semilla 132, BO  -6.0 dB: 0.506 -> 4.35e+24
+  semilla 132, BO  -3.0 dB: 0.244 -> 2.15e+24
+  semilla 132, BO  +0.0 dB: 0.0893 -> 7.34e+23
+  semilla 132, BO  +3.0 dB: 0.0269 -> 1.78e+23
+  semilla 132, BO  +6.0 dB: 0.00782 -> 3.4e+22
+  semilla 132, BO  +9.0 dB: 0.00254 -> 6.14e+21
+  semilla 139, BO  -9.0 dB: 0.59 -> 3.46e+53
+  semilla 139, BO  -6.0 dB: 0.123 -> 8.83e+52
+  semilla 139, BO  -3.0 dB: 0.00953 -> 1.04e+52
+  semilla 139, BO  +0.0 dB: 0.00203 -> 4.41e+50
+  semilla 139, BO  +3.0 dB: 0.00133 -> 1.9e+50
+  semilla 139, BO  +6.0 dB: 0.000799 -> 1.86e+50
+  semilla 139, BO  +9.0 dB: 0.000834 -> 2.02e+50
+  semilla 145, BO  -9.0 dB: 1.23e+03 -> 3.1e+120
+  semilla 145, BO  -6.0 dB: 920 -> 2.29e+120
+  semilla 145, BO  -3.0 dB: 515 -> 1.27e+120
+  semilla 145, BO  +0.0 dB: 202 -> 4.93e+119
+  semilla 145, BO  +3.0 dB: 56.5 -> 1.38e+119
+  semilla 145, BO  +6.0 dB: 12.4 -> 3.05e+118
+  semilla 145, BO  +9.0 dB: 2.55 -> 6.34e+117
+  semilla 156, BO  -9.0 dB: 78 -> 1.17e+60
+  semilla 156, BO  -6.0 dB: 51.5 -> 8.18e+59
+  semilla 156, BO  -3.0 dB: 25.5 -> 4.2e+59
+  semilla 156, BO  +0.0 dB: 9.21 -> 1.53e+59
+  semilla 156, BO  +3.0 dB: 2.55 -> 4.15e+58
+  semilla 156, BO  +6.0 dB: 0.627 -> 9.56e+57
+  semilla 156, BO  +9.0 dB: 0.163 -> 2.24e+57
+  semilla 159, BO  -9.0 dB: 41.8 -> 1.16e+33
+  semilla 159, BO  -6.0 dB: 24.4 -> 6.83e+32
+  semilla 159, BO  -3.0 dB: 10.9 -> 3.03e+32
+  semilla 159, BO  +0.0 dB: 3.71 -> 9.87e+31
+  semilla 159, BO  +3.0 dB: 1.04 -> 2.49e+31
+  semilla 159, BO  +6.0 dB: 0.281 -> 5.6e+30
+  semilla 159, BO  +9.0 dB: 0.085 -> 1.34e+30
+  semilla 164, BO  -9.0 dB: 53.4 -> 2.17e+81
+  semilla 164, BO  -6.0 dB: 36 -> 1.52e+81
+  semilla 164, BO  -3.0 dB: 18.3 -> 8.02e+80
+  semilla 164, BO  +0.0 dB: 6.72 -> 3e+80
+  semilla 164, BO  +3.0 dB: 1.83 -> 8.19e+79
+  semilla 164, BO  +6.0 dB: 0.41 -> 1.8e+79
+  semilla 164, BO  +9.0 dB: 0.0888 -> 3.72e+78
+  semilla 168, BO  -9.0 dB: 11.8 -> 1.52e+85
+  semilla 168, BO  -6.0 dB: 12.7 -> 1.99e+85
+  semilla 168, BO  -3.0 dB: 9.73 -> 1.75e+85
+  semilla 168, BO  +0.0 dB: 4.58 -> 8.82e+84
+  semilla 168, BO  +3.0 dB: 1.35 -> 2.66e+84
+  semilla 168, BO  +6.0 dB: 0.265 -> 5.17e+83
+  semilla 168, BO  +9.0 dB: 0.0376 -> 6.95e+82
+  semilla 175, BO  -9.0 dB: 8.55 -> 3.66e+56
+  semilla 175, BO  -6.0 dB: 5.29 -> 2.51e+56
+  semilla 175, BO  -3.0 dB: 2.5 -> 1.31e+56
+  semilla 175, BO  +0.0 dB: 0.872 -> 4.86e+55
+  semilla 175, BO  +3.0 dB: 0.229 -> 1.31e+55
+  semilla 175, BO  +6.0 dB: 0.0504 -> 2.78e+54
+  semilla 175, BO  +9.0 dB: 0.011 -> 5.44e+53
+  semilla 190, BO  -9.0 dB: 2.04 -> 1.63e+61
+  semilla 190, BO  -6.0 dB: 0.978 -> 8.4e+60
+  semilla 190, BO  -3.0 dB: 0.376 -> 3.67e+60
+  semilla 190, BO  +0.0 dB: 0.135 -> 1.59e+60
+  semilla 190, BO  +3.0 dB: 0.0577 -> 8.14e+59
+  semilla 190, BO  +6.0 dB: 0.0312 -> 4.81e+59
+  semilla 190, BO  +9.0 dB: 0.0183 -> 2.9e+59
+
+Cadena completa a -9 dB:
+  semilla   2, sin guarda          : EVM 29.07 %, ACPR -19.43 / -18.06 dB, MSE del modelo 29.9 -> 3.73e+53 en 40 épocas, respaldo False
+  semilla   2, con guarda y respaldo: EVM  5.60 %, ACPR -30.04 / -29.12 dB, MSE del modelo 0.0886 -> 0.0808 en 40 épocas, respaldo True
+  semilla  14, sin guarda          : EVM 21.87 %, ACPR -17.08 / -19.43 dB, MSE del modelo 79.4 -> 1.34e+65 en 40 épocas, respaldo False
+  semilla  14, con guarda y respaldo: EVM  6.30 %, ACPR -28.36 / -29.09 dB, MSE del modelo 0.11 -> 0.0688 en 40 épocas, respaldo True
+  semilla  28, sin guarda          : EVM 152.19 %, ACPR -10.90 /  -8.32 dB, MSE del modelo 2.5e+03 -> 3.89e+141 en 40 épocas, respaldo False
+  semilla  28, con guarda y respaldo: EVM  5.72 %, ACPR -30.48 / -29.37 dB, MSE del modelo 0.0504 -> 0.0942 en 40 épocas, respaldo True
+  semilla  46, sin guarda          : EVM 13.26 %, ACPR -24.41 / -23.60 dB, MSE del modelo 1.64 -> 1.4e+06 en 40 épocas, respaldo False
+  semilla  46, con guarda y respaldo: EVM  6.40 %, ACPR -28.97 / -28.63 dB, MSE del modelo 0.0586 -> 0.0503 en 40 épocas, respaldo True
+  semilla  53, sin guarda          : EVM 15.85 %, ACPR -22.38 / -22.09 dB, MSE del modelo 0.359 -> 2.18e+12 en 40 épocas, respaldo False
+  semilla  53, con guarda y respaldo: EVM  5.90 %, ACPR -29.27 / -28.99 dB, MSE del modelo 0.051 -> 0.0497 en 40 épocas, respaldo True
+  semilla  60, sin guarda          : EVM 14.43 %, ACPR -23.01 / -22.95 dB, MSE del modelo 0.321 -> 21.9 en 40 épocas, respaldo False
+  semilla  60, con guarda y respaldo: EVM 14.43 %, ACPR -23.01 / -22.95 dB, MSE del modelo 0.321 -> 21.9 en 40 épocas, respaldo False
+  semilla  63, sin guarda          : EVM 21.39 %, ACPR -20.55 / -20.39 dB, MSE del modelo 658 -> 3.45e+151 en 40 épocas, respaldo False
+  semilla  63, con guarda y respaldo: EVM  5.83 %, ACPR -28.93 / -28.79 dB, MSE del modelo 0.0428 -> 0.0994 en 40 épocas, respaldo True
+  semilla  64, sin guarda          : EVM 15.89 %, ACPR -20.90 / -21.81 dB, MSE del modelo 63.4 -> 3.32e+63 en 40 épocas, respaldo False
+  semilla  64, con guarda y respaldo: EVM  6.05 %, ACPR -30.86 / -29.24 dB, MSE del modelo 0.0679 -> 0.0715 en 40 épocas, respaldo True
+  semilla  65, sin guarda          : EVM 12.46 %, ACPR -23.24 / -22.43 dB, MSE del modelo 3.66 -> 2.11e+26 en 40 épocas, respaldo False
+  semilla  65, con guarda y respaldo: EVM 10.24 %, ACPR -27.91 / -27.83 dB, MSE del modelo 0.0418 -> 0.0525 en 40 épocas, respaldo True
+  semilla  70, sin guarda          : EVM 15.25 %, ACPR -22.45 / -22.38 dB, MSE del modelo 0.714 -> 9.13e+11 en 40 épocas, respaldo False
+  semilla  70, con guarda y respaldo: EVM  6.52 %, ACPR -31.15 / -29.16 dB, MSE del modelo 0.0547 -> 0.0471 en 40 épocas, respaldo True
+  semilla  74, sin guarda          : EVM 16.26 %, ACPR -22.17 / -22.09 dB, MSE del modelo 0.303 -> 3.17e+06 en 40 épocas, respaldo False
+  semilla  74, con guarda y respaldo: EVM  6.56 %, ACPR -28.55 / -29.05 dB, MSE del modelo 0.0654 -> 0.0448 en 40 épocas, respaldo True
+  semilla  76, sin guarda          : EVM 12.59 %, ACPR -23.96 / -23.76 dB, MSE del modelo 0.388 -> 20.8 en 40 épocas, respaldo False
+  semilla  76, con guarda y respaldo: EVM  7.27 %, ACPR -30.57 / -28.19 dB, MSE del modelo 0.0474 -> 0.0527 en 40 épocas, respaldo True
+  semilla  77, sin guarda          : EVM 15.31 %, ACPR -23.47 / -22.59 dB, MSE del modelo 0.435 -> 2.87e+10 en 40 épocas, respaldo False
+  semilla  77, con guarda y respaldo: EVM  6.29 %, ACPR -29.38 / -29.05 dB, MSE del modelo 0.0791 -> 0.061 en 40 épocas, respaldo True
+  semilla  82, sin guarda          : EVM 65.04 %, ACPR -14.73 / -13.98 dB, MSE del modelo 44.2 -> 2.74e+73 en 40 épocas, respaldo False
+  semilla  82, con guarda y respaldo: EVM  6.32 %, ACPR -29.27 / -29.31 dB, MSE del modelo 0.135 -> 0.0887 en 40 épocas, respaldo True
+  semilla  85, sin guarda          : EVM 16.48 %, ACPR -21.57 / -21.63 dB, MSE del modelo 2.96 -> 3.12e+55 en 40 épocas, respaldo False
+  semilla  85, con guarda y respaldo: EVM  6.30 %, ACPR -29.13 / -28.71 dB, MSE del modelo 0.0778 -> 0.0792 en 40 épocas, respaldo True
+  semilla  88, sin guarda          : EVM 91.60 %, ACPR -10.68 / -12.21 dB, MSE del modelo 344 -> 3.98e+103 en 40 épocas, respaldo False
+  semilla  88, con guarda y respaldo: EVM  5.70 %, ACPR -30.50 / -29.37 dB, MSE del modelo 0.0582 -> 0.0825 en 40 épocas, respaldo True
+  semilla  95, sin guarda          : EVM 16.01 %, ACPR -22.24 / -22.99 dB, MSE del modelo 0.262 -> 1.84e+06 en 40 épocas, respaldo False
+  semilla  95, con guarda y respaldo: EVM  5.97 %, ACPR -28.80 / -28.88 dB, MSE del modelo 0.119 -> 0.0776 en 40 épocas, respaldo True
+  semilla  98, sin guarda          : EVM 16.45 %, ACPR -21.05 / -22.15 dB, MSE del modelo 39.1 -> 6.04e+89 en 40 épocas, respaldo False
+  semilla  98, con guarda y respaldo: EVM  6.74 %, ACPR -27.96 / -29.08 dB, MSE del modelo 0.0618 -> 0.0834 en 40 épocas, respaldo True
+  semilla  99, sin guarda          : EVM 22.74 %, ACPR -22.05 / -20.94 dB, MSE del modelo 7.47 -> 2.55e+54 en 40 épocas, respaldo False
+  semilla  99, con guarda y respaldo: EVM  6.10 %, ACPR -28.60 / -28.95 dB, MSE del modelo 0.0413 -> 0.0719 en 40 épocas, respaldo True
+  semilla 113, sin guarda          : EVM 26.46 %, ACPR -21.95 / -21.07 dB, MSE del modelo 67.4 -> 2.3e+19 en 40 épocas, respaldo False
+  semilla 113, con guarda y respaldo: EVM  7.51 %, ACPR -27.51 / -29.09 dB, MSE del modelo 0.048 -> 0.0711 en 40 épocas, respaldo True
+  semilla 114, sin guarda          : EVM 15.91 %, ACPR -23.01 / -22.10 dB, MSE del modelo 0.0239 -> 4.26e+18 en 40 épocas, respaldo False
+  semilla 114, con guarda y respaldo: EVM  6.46 %, ACPR -29.75 / -28.60 dB, MSE del modelo 0.0492 -> 0.0591 en 40 épocas, respaldo True
+  semilla 116, sin guarda          : EVM 17.55 %, ACPR -21.22 / -21.73 dB, MSE del modelo 5.37 -> 2.26e+67 en 40 épocas, respaldo False
+  semilla 116, con guarda y respaldo: EVM  6.15 %, ACPR -29.15 / -29.06 dB, MSE del modelo 0.0662 -> 0.0665 en 40 épocas, respaldo True
+  semilla 123, sin guarda          : EVM  3.33 %, ACPR -32.12 / -31.67 dB, MSE del modelo 0.0211 -> 0.00244 en 40 épocas, respaldo False
+  semilla 123, con guarda y respaldo: EVM  3.33 %, ACPR -32.12 / -31.67 dB, MSE del modelo 0.0211 -> 0.00244 en 40 épocas, respaldo False
+  semilla 124, sin guarda          : EVM 15.27 %, ACPR -22.70 / -22.35 dB, MSE del modelo 0.247 -> 1.88e+13 en 40 épocas, respaldo False
+  semilla 124, con guarda y respaldo: EVM  6.73 %, ACPR -29.31 / -28.84 dB, MSE del modelo 0.0436 -> 0.0454 en 40 épocas, respaldo True
+  semilla 126, sin guarda          : EVM 14.37 %, ACPR -23.59 / -21.71 dB, MSE del modelo 1.37 -> 8.51e+38 en 40 épocas, respaldo False
+  semilla 126, con guarda y respaldo: EVM  6.58 %, ACPR -30.01 / -28.76 dB, MSE del modelo 0.0654 -> 0.0615 en 40 épocas, respaldo True
+  semilla 130, sin guarda          : EVM 15.22 %, ACPR -22.67 / -22.39 dB, MSE del modelo 0.321 -> 4.44e+16 en 40 épocas, respaldo False
+  semilla 130, con guarda y respaldo: EVM  6.10 %, ACPR -30.86 / -28.83 dB, MSE del modelo 0.0665 -> 0.0524 en 40 épocas, respaldo True
+  semilla 132, sin guarda          : EVM 14.60 %, ACPR -22.62 / -22.65 dB, MSE del modelo 0.81 -> 6.41e+24 en 40 épocas, respaldo False
+  semilla 132, con guarda y respaldo: EVM  6.13 %, ACPR -30.77 / -29.47 dB, MSE del modelo 0.0667 -> 0.0624 en 40 épocas, respaldo True
+  semilla 139, sin guarda          : EVM 14.47 %, ACPR -22.74 / -22.11 dB, MSE del modelo 0.59 -> 3.46e+53 en 40 épocas, respaldo False
+  semilla 139, con guarda y respaldo: EVM  7.31 %, ACPR -29.44 / -28.77 dB, MSE del modelo 0.0692 -> 0.0639 en 40 épocas, respaldo True
+  semilla 145, sin guarda          : EVM 24.40 %, ACPR -20.04 / -18.07 dB, MSE del modelo 1.23e+03 -> 3.1e+120 en 40 épocas, respaldo False
+  semilla 145, con guarda y respaldo: EVM  6.04 %, ACPR -28.77 / -29.23 dB, MSE del modelo 0.104 -> 0.116 en 40 épocas, respaldo True
+  semilla 156, sin guarda          : EVM 18.25 %, ACPR -19.92 / -20.95 dB, MSE del modelo 78 -> 1.17e+60 en 40 épocas, respaldo False
+  semilla 156, con guarda y respaldo: EVM  5.93 %, ACPR -29.22 / -29.06 dB, MSE del modelo 0.108 -> 0.0973 en 40 épocas, respaldo True
+  semilla 159, sin guarda          : EVM 31.49 %, ACPR -18.21 / -16.25 dB, MSE del modelo 41.8 -> 1.16e+33 en 40 épocas, respaldo False
+  semilla 159, con guarda y respaldo: EVM  6.08 %, ACPR -28.68 / -29.25 dB, MSE del modelo 0.125 -> 0.0923 en 40 épocas, respaldo True
+  semilla 164, sin guarda          : EVM 20.98 %, ACPR -20.20 / -19.86 dB, MSE del modelo 53.4 -> 2.17e+81 en 40 épocas, respaldo False
+  semilla 164, con guarda y respaldo: EVM  5.45 %, ACPR -30.69 / -29.28 dB, MSE del modelo 0.0454 -> 0.104 en 40 épocas, respaldo True
+  semilla 168, sin guarda          : EVM 27.50 %, ACPR -19.83 / -18.47 dB, MSE del modelo 11.8 -> 1.52e+85 en 40 épocas, respaldo False
+  semilla 168, con guarda y respaldo: EVM  5.66 %, ACPR -30.22 / -29.24 dB, MSE del modelo 0.0781 -> 0.0957 en 40 épocas, respaldo True
+  semilla 175, sin guarda          : EVM 13.84 %, ACPR -21.70 / -23.20 dB, MSE del modelo 8.55 -> 3.66e+56 en 40 épocas, respaldo False
+  semilla 175, con guarda y respaldo: EVM  6.63 %, ACPR -28.44 / -29.13 dB, MSE del modelo 0.0585 -> 0.0698 en 40 épocas, respaldo True
+  semilla 190, sin guarda          : EVM 21.10 %, ACPR -21.44 / -21.01 dB, MSE del modelo 2.04 -> 1.63e+61 en 40 épocas, respaldo False
+  semilla 190, con guarda y respaldo: EVM  5.90 %, ACPR -29.05 / -29.01 dB, MSE del modelo 0.0503 -> 0.0695 en 40 épocas, respaldo True
+
+Guardado en sys_with_acpr/resultados_robustez/robustez_200.pkl (12.6 min)

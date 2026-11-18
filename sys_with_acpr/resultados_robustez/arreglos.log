@@ -1,0 +1,17 @@
+lim1: g_max 1.0, 8000 muestras, 200 registros
+  -9 dB: EVM mediana 5.62 %, de 3.02 a 10.08 %, percentiles 5 y 95 3.59 y 8.04 %, respaldo en 0, semilla 123 3.50 %
+  +9 dB: EVM mediana 0.36 %, de 0.15 a 0.69 %, percentiles 5 y 95 0.19 y 0.59 %, respaldo en 0, semilla 123 0.53 %
+  (6.6 min)
+lim2: g_max 2.0, 8000 muestras, 200 registros
+  -9 dB: EVM mediana 5.63 %, de 3.04 a 10.08 %, percentiles 5 y 95 3.64 y 8.04 %, respaldo en 0, semilla 123 3.58 %
+  +9 dB: EVM mediana 0.36 %, de 0.15 a 0.70 %, percentiles 5 y 95 0.19 y 0.59 %, respaldo en 0, semilla 123 0.54 %
+  (6.6 min)
+n16000: g_max None, 16000 muestras, 200 registros
+  -9 dB: EVM mediana 4.58 %, de 3.20 a 14.36 %, percentiles 5 y 95 3.34 y 9.46 %, respaldo en 68, semilla 123 7.19 %
+  (5.5 min)
+n32000: g_max None, 32000 muestras, 200 registros
+  -9 dB: EVM mediana 6.09 %, de 3.37 a 18.85 %, percentiles 5 y 95 3.65 y 9.37 %, respaldo en 107, semilla 123 9.63 %
+  (10.6 min)
+base9: g_max None, 8000 muestras, 200 registros
+  +9 dB: EVM mediana 0.34 %, de 0.08 a 0.70 %, percentiles 5 y 95 0.17 y 0.57 %, respaldo en 32, semilla 123 0.54 %
+  (4.6 min)

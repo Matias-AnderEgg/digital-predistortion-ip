@@ -1,0 +1,11 @@
+BO -9 dB, PA con memoria, fixed_bo, senal LTE, 364 simbolos de evaluacion
+entrenamiento: C por defecto, 16000 muestras; DPD aplicado en punto fijo
+
+                  NMSE      EVM     ACPR  alterno
+sin DPD      -11.19 dB  22.44 % -20.4 dB -39.4 dB
+h flotante   -24.18 dB   3.70 % -31.2 dB -45.4 dB
+h Q0.15      -20.49 dB   6.81 % -28.2 dB -46.3 dB
+
+Tramos fuera del canal (|f| > 4.5 MHz) con la PSD mas de 0.5 dB por encima de sin DPD (suavizada en 100 kHz):
+  h flotante: ninguno (lo mas cerca: +0.4 dB en -4.51 MHz)
+  h Q0.15: ninguno (lo mas cerca: +0.3 dB en +30.52 MHz)

@@ -1,0 +1,4 @@
+lim1_n16000: g_max 1.0, 16000 muestras, 200 registros
+  -9 dB: EVM mediana 4.01 %, de 3.17 a 7.24 %, percentiles 5 y 95 3.34 y 5.64 %, respaldo en 0, semilla 123 3.71 %
+  +9 dB: EVM mediana 0.27 %, de 0.09 a 0.60 %, percentiles 5 y 95 0.12 y 0.49 %, respaldo en 0, semilla 123 0.60 %
+  (12.8 min)

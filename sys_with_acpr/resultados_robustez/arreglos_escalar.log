@@ -1,0 +1,37 @@
+lim1: g_max 1.0, 8000 muestras, , 200 registros
+  -9 dB: EVM mediana 5.62 %, de 3.02 a 10.08 %, percentiles 5 y 95 3.59 y 8.04 %, respaldo en 0, semilla 123 3.50 %
+        escalar: mediana 6.08 %, de 3.92 a 10.31 %, percentiles 5 y 95 4.38 y 8.27 %, semilla 123 4.44 %
+  +9 dB: EVM mediana 0.36 %, de 0.15 a 0.69 %, percentiles 5 y 95 0.19 y 0.59 %, respaldo en 0, semilla 123 0.53 %
+        escalar: mediana 0.53 %, de 0.37 a 0.87 %, percentiles 5 y 95 0.42 y 0.72 %, semilla 123 0.63 %
+  (6.5 min)
+lim2: g_max 2.0, 8000 muestras, , 200 registros
+  -9 dB: EVM mediana 5.63 %, de 3.04 a 10.08 %, percentiles 5 y 95 3.64 y 8.04 %, respaldo en 0, semilla 123 3.58 %
+        escalar: mediana 6.08 %, de 3.93 a 10.31 %, percentiles 5 y 95 4.38 y 8.27 %, semilla 123 4.48 %
+  +9 dB: EVM mediana 0.36 %, de 0.15 a 0.70 %, percentiles 5 y 95 0.19 y 0.59 %, respaldo en 0, semilla 123 0.54 %
+        escalar: mediana 0.53 %, de 0.37 a 0.87 %, percentiles 5 y 95 0.42 y 0.73 %, semilla 123 0.63 %
+  (7.0 min)
+n16000: g_max None, 16000 muestras, , 200 registros
+  -9 dB: EVM mediana 4.58 %, de 3.20 a 14.36 %, percentiles 5 y 95 3.34 y 9.46 %, respaldo en 68, semilla 123 7.19 %
+        escalar: mediana 5.33 %, de 3.80 a 14.29 %, percentiles 5 y 95 4.19 y 9.77 %, semilla 123 7.26 %
+  (6.1 min)
+n32000: g_max None, 32000 muestras, , 200 registros
+  -9 dB: EVM mediana 6.09 %, de 3.37 a 18.85 %, percentiles 5 y 95 3.65 y 9.37 %, respaldo en 107, semilla 123 9.63 %
+        escalar: mediana 6.56 %, de 3.97 a 18.70 %, percentiles 5 y 95 4.37 y 9.51 %, semilla 123 10.40 %
+  (11.2 min)
+base9: g_max None, 8000 muestras, , 200 registros
+  +9 dB: EVM mediana 0.34 %, de 0.08 a 0.70 %, percentiles 5 y 95 0.17 y 0.57 %, respaldo en 32, semilla 123 0.54 %
+        escalar: mediana 0.53 %, de 0.36 a 0.87 %, percentiles 5 y 95 0.42 y 0.73 %, semilla 123 0.63 %
+  (3.3 min)
+lim1_n16000: g_max 1.0, 16000 muestras, , 200 registros
+  -9 dB: EVM mediana 4.01 %, de 3.17 a 7.24 %, percentiles 5 y 95 3.34 y 5.64 %, respaldo en 0, semilla 123 3.71 %
+        escalar: mediana 4.88 %, de 3.80 a 7.64 %, percentiles 5 y 95 4.07 y 6.36 %, semilla 123 4.46 %
+  +9 dB: EVM mediana 0.27 %, de 0.09 a 0.60 %, percentiles 5 y 95 0.12 y 0.49 %, respaldo en 0, semilla 123 0.60 %
+        escalar: mediana 0.44 %, de 0.26 a 0.81 %, percentiles 5 y 95 0.31 y 0.64 %, semilla 123 0.65 %
+  (10.9 min)
+nlms: g_max None, 8000 muestras, {'mu_h': 0.05, 'use_nlms_h': True}, 200 registros
+  -9 dB: EVM mediana 7.22 %, de 5.45 a 23.10 %, percentiles 5 y 95 5.90 y 15.73 %, respaldo en 0, semilla 123 15.37 %
+        escalar: mediana 7.77 %, de 5.91 a 23.34 %, percentiles 5 y 95 6.39 y 16.24 %, semilla 123 15.68 %
+  +9 dB: EVM mediana 0.29 %, de 0.07 a 0.69 %, percentiles 5 y 95 0.13 y 0.50 %, respaldo en 0, semilla 123 0.26 %
+        escalar: mediana 0.53 %, de 0.36 a 0.89 %, percentiles 5 y 95 0.40 y 0.77 %, semilla 123 0.41 %
+  (6.6 min)
+FIN

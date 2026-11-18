@@ -1,0 +1,4 @@
+nlms: g_max None, 8000 muestras, {'mu_h': 0.05, 'use_nlms_h': True}, 200 registros
+  -9 dB: EVM mediana 7.22 %, de 5.45 a 23.10 %, percentiles 5 y 95 5.90 y 15.73 %, respaldo en 0, semilla 123 15.37 %
+  +9 dB: EVM mediana 0.29 %, de 0.07 a 0.69 %, percentiles 5 y 95 0.13 y 0.50 %, respaldo en 0, semilla 123 0.26 %
+  (6.8 min)
